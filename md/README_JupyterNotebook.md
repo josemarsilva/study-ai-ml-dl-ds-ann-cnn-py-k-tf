@@ -77,6 +77,7 @@ HelloHelloHelloHello
 
 # Referências
 
+* https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook#gs.D5KB_GA
 * [Jupyter Notebook - Org](https://jupyter.org/)
 * [Curso Python 3 | Aula 1 - Notebook Jupyter](https://www.youtube.com/watch?v=m0FbNlhNyQ8)
 * [Getting Started With Jupyter Notebook for Python](https://www.youtube.com/watch?v=CwFq3YDU6_Y)
