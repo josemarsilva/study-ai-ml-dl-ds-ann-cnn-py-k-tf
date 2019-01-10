@@ -8,12 +8,12 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 ### 2. Roteiros de estudo ###
 
 * [A revolução da _AI_](./md/README_Revolucao_da_AI.md)
-* [História da _AI_ (Artificial Intelligence)](./md/README_Revolucao_da_AI.md)
+* História da _AI_ (Artificial Intelligence)
 * _AI_ (Artificial Intelligence) vs ML (Machine Learning) vs DL (Deep Learning)
 * Introdução às _RNA_ (Redes Neurais Artificiais)
-* [Tensor Flow](./md/README_TensorFlow.md)
 * [Jupyter Notebook](./md/README_JupyterNotebook.md)
 * [Introdução Programação Python](./md/README_Python.md)
+* Tensor Flow
 
 
 

@@ -19,7 +19,7 @@ pip3 install jupyter
 
 ### 2.2.1. Variáveis em Python
 
-* JupyterNotebook deste exercício disponível [PythonVariables.ipynb](src/ipynb/02-PythonVariables/PythonVariables.ipynb)
+* JupyterNotebook deste exercício disponível [Variables.ipynb](src/ipynb/02-PythonVariables/Variables.ipynb)
 * Aspas duplas ou simples delimitam o string
 * Nome de variáveis: iniciado por letras, seguido de letras ou números ou underscore
   * O que não pode: começar com números ou ter espaços
@@ -58,7 +58,7 @@ False
 
 ### 2.2.2. Operadores em Python
 
-* JupyterNotebook deste exercício disponível [PythonOperators.ipynb](src/ipynb/03-PythonOperators/PythonOperators.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/03-PythonOperators/Operators.ipynb)
 * Operadores relacionais
 
 ```ipynb
@@ -133,7 +133,7 @@ False
 
 ### 2.2.3. String
 
-* JupyterNotebook deste exercício disponível [PythonOperators.ipynb](src/ipynb/04-StringVariables/StringVariables.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/04-StringVariables/StringVariables.ipynb)
 * Lembre-se que em Python tudo é um objeto. Um string é um objeto que vem com métodos que podem ser executados
 * Lembre-se que o String é imutável, você não pode mudar o seu conteúdo
 
