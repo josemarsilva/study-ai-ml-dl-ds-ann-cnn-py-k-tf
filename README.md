@@ -8,23 +8,27 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 ### 2. Roteiros de estudo ###
 
 * [A revolução da _AI_](./md/README_Revolucao_da_AI.md)
-* História da _AI_ (Artificial Intelligence)
+* [História da _AI_ (Artificial Intelligence)](./md/README_Revolucao_da_AI.md)
 * _AI_ (Artificial Intelligence) vs ML (Machine Learning) vs DL (Deep Learning)
 * Introdução às _RNA_ (Redes Neurais Artificiais)
-
+* [Tensor Flow](./md/README_TensorFlow.md)
+* [Jupyter Notebook](./md/README_JupyterNotebook.md)
+* [Introdução Programação Python](./md/README_Python.md)
 
 
 
 ## Referências ##
 
+
+### Revolução, Negócios, aspectos sociológicos, etc ###
+
+* [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk)
+
+
 ### AI, ML, DL, CNN e DS ###
 
-* Vídeo [Inteligência Artificial, Machine Learning e Deep Learning (Exemplos e Diferenças)](https://www.youtube.com/watch?v=5UYpSE3dQSQ&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
-  * Comentário: PT-BR Introdutório dos conceitos, mostra a diferença entre AI vs ML vs DL, para não técnicos de forma bastante simples e efetiva
-* Vídeo [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk&index=9&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
-  * Comentário: PT-BR Introdução a AI do ponto de vista de negócios, rentabilidade e evangilização
-* Vídeo [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
-  * Comentário: PT-BR Bom histórico, excelente didática
+* Vídeo [Inteligência Artificial, Machine Learning e Deep Learning (Exemplos e Diferenças)](https://www.youtube.com/watch?v=5UYpSE3dQSQ&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Introdutório dos conceitos, mostra a diferença entre AI vs ML vs DL, para não técnicos de forma bastante simples e efetiva
+* Vídeo [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Bom histórico, excelente didática
 * Vídeo [Inteligência Artificial: CNN e CUDA, uma breve introdução](https://www.youtube.com/watch?v=j8E_i6-qtbA&index=14&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: PT-BR Bom histórico sobre Rede Neural Convolucinal, Lenet: reconhecimento de caracter, TensorFlow, Imagenet
 * Vídeo [Deep Learning - Redes Neurais Convolucionais](https://www.youtube.com/watch?v=DXnyuUZcAAI&index=10&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
@@ -47,3 +51,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * Vídeo [Introdução a Deep Learning e Tensorflow: Teoria e Pratica](https://www.youtube.com/watch?v=mAIRkkItPSc&index=17)
   * Comentário: Introdução bem resumida, ML, RN, DL, TF, criar e treinar RN. Aqui estáo os [Slides](https://github.com/GuiUzeda/Webinar-Tensorflow/blob/master/Webinar%20Tensorflow.pdf)
   
+### Jupyter Notebook ###
+
+* [Getting Started With Jupyter Notebook for Python](https://www.youtube.com/watch?v=CwFq3YDU6_Y)
+* [Tutorial do Notebook Jupyter: Introdução, Configuração e Passo a Passo](https://www.youtube.com/watch?v=HW29067qVWk&t=72s)

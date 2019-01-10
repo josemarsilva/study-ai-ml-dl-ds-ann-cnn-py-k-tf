@@ -47,7 +47,7 @@ Há muitas definições para o termo _AI_ (Inteligência Artificial):
 * Em 1990 desenvolveu algorítimo para jogar gamão que foi a base para o uso de _AI_ com jogos
 * O almento gigantesco de dados e avanços em algorítmos contribuiram para a revolução da _AI_
 * Os fatores chaves do avanço foram: i) capacidade dos computadores; ii) disponibilidade de dados; iii) cientistas que trabalharam durante anos;
-* Todos os dias criamos dados rapidamente. A cada minuto: i) 4 milhões de vídeos no youtube; ii) 3,5 milhões de pesquisas no google;
+* Na [Internet em Tempo Real](http://bit.ly/2bTvwKe), todos os dias criamos dados rapidamente **muitos dados**: a) redes sociais; b) sensore; c) mobile. Os dados por si só não dizem muito, você precisa trabalhar com ele: descobrir padrões, compreender cenário, etc. _ML_ pode ajudar a lidar com estes dados e agregar ao negócio.
 * A quantidade imensa de dados fornecem oportunidade de aprendizado para os computadores em um volume impossível aos humanos
 * Estamos em um oceanos de dados, sistemas de _AI_ rastreiam nossas preferências
 * Em 2013 jogos do Atari como Space Invasors, foram dominados pelo programa [DeepMind do Google](https://www.tecmundo.com.br/software/131090-ia-deepmind-comeca-treinar-com-jogos-atari.htm) sem que humanos fornecessem informações além da regra do jogo. O sistema foi alimentado com dados de pixels da tela.
@@ -70,3 +70,4 @@ Há muitas definições para o termo _AI_ (Inteligência Artificial):
 # Referências
 
 * [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk)
+* [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48)
