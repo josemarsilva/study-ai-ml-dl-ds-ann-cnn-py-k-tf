@@ -7,7 +7,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 
 ### 2. Roteiros de estudo ###
 
-* [A revolução da _AI_](https://www.youtube.com/watch?v=W95YlM5-iPk)
+* [A revolução da _AI_](./md/README_Revolucao_da_AI.md)
 * História da _AI_ (Artificial Intelligence)
 * _AI_ (Artificial Intelligence) vs ML (Machine Learning) vs DL (Deep Learning)
 * Introdução às _RNA_ (Redes Neurais Artificiais)
