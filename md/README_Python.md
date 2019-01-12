@@ -17,7 +17,7 @@ pip3 install jupyter
 
 ## 2.2. Guia de Programação
 
-### 2.2.1. Variáveis em Python
+### 2.2.1. Variáveis
 
 * JupyterNotebook deste exercício disponível [Variables.ipynb](src/ipynb/02-PythonVariables/Variables.ipynb)
 * Aspas duplas ou simples delimitam o string
@@ -56,7 +56,7 @@ False
 ```
 
 
-### 2.2.2. Operadores em Python
+### 2.2.2. Operadores
 
 * JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/03-PythonOperators/Operators.ipynb)
 * Operadores relacionais
@@ -200,6 +200,319 @@ print( "%s tem %d anos e namora %s. Altura média deles é %f" % (nome, idade, n
 ```txt
 João tem 20 anos e namora Maria. Altura média deles é 1.600000
 ```
+
+
+### 2.2.4. Entrada de dados
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/05-EntradaDeDados/EntradaDeDados.ipynb)
+* Permite que você entre valores para um trecho de programa
+* A função `input()` sempre retorna valores String!!! Lembrando que o Python dificilmente faz conversão implícitas, então se estiver lendo um número e queira fazer operações aritméticas, você precisará convertê-lo
+
+```ipynb
+idade = input('Entre a sua idade: ')
+Entre a sua idade: 20
+20
+type(idade)
+str
+
+idade = int(input('Digite o valor numérico de sua idade: '))
+Digite o valor numérico de sua idade: 20
+type(idade)
+int
+idade + 10
+30
+
+var_pi = float(input('Digite o número pi: '))
+Digite o número pi: 3.1415
+var_pi
+3.1415
+```
+
+* A entrada de dados é um ponto frágil dos sistemas, você precisará tratar o tipo de entrada
+
+```ipynb
+idade = int(input('Digite a sua idade: '))
+Digite a sua idade: texto
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-10-3d9bb7317af4> in <module>()
+----> 1 idade = int(input('Digite a sua idade: '))
+ValueError: invalid literal for int() with base 10: 'string'
+```
+
+
+### 2.2.5. Condições
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/06-Condicoes/Condicoes.ipynb)
+* Python utiliza deslocamente de texto para identar o programa. Não possui marcações do tipo ( begin, end )
+* As [Condições](https://www.tutorialspoint.com/python/python_if_else.htm) : `if ( condição ):`, `else:` e `elif ( condição ):`
+
+```ipynb
+idade = 20
+if (idade >= 18):
+   print ('Maior de idade')
+else:
+  print ('Menor de idade')
+```
+
+```txt
+Maior de idade
+```
+
+* Estruturas aninhadas de vários `if` e `else`
+
+```ipynb
+idade = 20
+if (idade >= 18):
+    if (idade >= 60 ):
+        print( 'Idoso')
+    else:
+        print ('Adulto')
+else:
+  print ('Menor de idade')
+```
+
+```txt
+Adulto
+```
+
+* O código pode ficar mais legível utilizando `elif` e com deslocamentos de textos de marcação desnecessários
+
+```ipynb
+opcao = 3
+if (opcao == 1):
+    preco = 15
+elif (opcao == 2):
+    preco = 20
+elif (opcao == 3):
+    preco = 30
+else:
+    preco = 50
+print( 'Preco é %i' % preco)
+```
+
+```txt
+Preco é 30
+```
+
+
+### 2.2.6. Repetições
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/07-Repeticoes/Repeticoes.ipynb)
+
+```ipynb
+count = 1
+while count <= 10:
+    print(count, ' ')
+    count += 1 # count = count + 1
+```
+
+```txt
+1 2 3 4 5 6 7 8 9 10
+```
+
+```ipynb
+count = 1
+while True:
+    if (count % 2 == 0):
+        print (count)
+    count += 1
+    if (count == 10):  # não vai imprimir o 10
+        break
+```
+
+```txt
+2 4 6 8
+```
+
+```ipynb
+tabuada = 1
+while tabuada <= 10:
+    numero = 1
+    while numero <= 10:
+        print ('%i x %i = %i' % (tabuada, numero, tabuada * numero))
+        numero += 1
+    tabuada +=1
+```
+
+
+### 2.2.7. Listas
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/08-Listas/Listas.ipynb)
+* As [Listas](https://docs.python.org/3/tutorial/introduction.html#lists) é um tipo de variável que permite o armazenamento de vários valores acessados por um índice
+* Você pode consultar os métodos aplicáveis a uma lista `help(list)`
+* As listas são estruturas que podemm armazenar informções heterogêneas, isto é de tipos de dados difrentes. Ex: int, String, Double, etc
+
+```ipynb
+help(list)
+```
+
+```ipynb
+lista = [2, 'josemar', 3.1415, [ 'azul', 'vermelho', 'preta' ] ]
+print(len(lista))
+print(lista)
+print('Último elemento da lista: ', lista[-1])
+print('Último elemento da sublista que é o último elemento da lista: ', lista[-1][-1])
+print('Os dois últimos elementos da sublista: ', lista[-1][-2:])
+print('Primeiro elemento da lista: ', lista[0])
+```
+
+```txt
+4
+[2, 'josemar', 3.1415, ['azul', 'vermelho', 'preta']]
+Último elemento da lista:  ['azul', 'vermelho', 'preta']
+Último elemento da sublista que é o último elemento da lista:  preta
+Os dois últimos elementos da sublista:  ['vermelho', 'preta']
+Primeiro elemento da lista:  2
+```
+
+* As listas são **mutáveis** isto é você pode alterar o conteúdo da lista
+
+```ipynb
+lista[0] = 1
+print(lista)
+```
+
+```ipynb
+[1, 'josemar', 3.1415, ['azul', 'vermelho', 'preta']]
+```
+
+* Loop de repetição iterando sobre os elementos de uma lista
+
+```ipynb
+lista = [1, 2, 3, 4]
+cont = 1
+while cont <= len(lista):
+    print(lista[cont-1], ' ')
+    cont +=1
+```
+
+```txt
+1 2 3 4
+```
+
+* Fatiamento
+
+```ipynb
+# fatiamento dos últimos 3 elementos
+lista = [1, 2, 3, 4, 5, 6 ]
+print(lista[-3:])
+```
+
+```txt
+[4, 5, 6]
+```
+
+* Lista é um recurso muito poderoso, mas cuidado para algumas pegadinhas.  Em Python tudo é objeto, quando fazemos a atribuição de um objeto a outro é uma cópia da mesma referência e não o conteúdo de seus dados
+
+```ipynb
+lista1 = [1,2,3,4,5,6]
+lista2 = lista1 # a atribuição de um objeto a outro é uma cópia da mesma referência
+lista2[0] = 10
+print('Lista1: ', lista1)
+```
+
+```txt
+Lista1:  [10, 2, 3, 4, 5, 6]
+```
+
+* Para fazer cópia do conteúdo
+
+```ipynb
+lista1 = [1,2,3,4,5,6]
+lista2 = lista1[:] # 
+lista2[0] = 10
+print('Lista1: ', lista1)
+```
+
+```txt
+Lista1:  [1, 2, 3, 4, 5, 6]
+```
+
+* Para **adicionar** elementos heterogêneos ao final da lista (observe que não precisa ser do mesmo tipo) use o `append()`
+
+```ipynb
+lista1 = [1,2,3,4,5]
+lista1.append('josemar')
+print(lista1)
+[1, 2, 3, 4, 5, 'josemar']
+```
+
+* Para **concatenar** uma lista ao final de outra pode-se utilizar o próprio operador `+`
+
+```ipynb
+lista1 = [1,2,3,4,5]
+lista2 = [6,7,8,9,10]
+lista_1_e_2 = lista1 + lista2
+print (lista_1_e_2)
+```
+
+* Para **remover** um elementos de uma lista passando o índice da posição (iniciando em zero) 
+
+```ipynb
+lista = [1,2,3,4,5]
+lista.pop(0)
+print(lista)
+[2, 3, 4, 5]
+```
+
+* Para **remover** um elementos de uma lista passando o elemento a ser removido
+
+```ipynb
+lista = [ 'josemar', 1, 3.1415, ['branco', 'preto'] ]
+lista.remove('josemar')  # porém o elemento deve existir na lista senão dará erro
+print(lista)
+[1, 3.1415, ['branco', 'preto']]
+```
+
+
+### 2.2.8. Estrutura de Repetição FOR
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/09-EstruturaRepeticaoFor/EstruturaRepeticaoFor.ipynb)
+
+```ipynb
+lista = [1,2,3,4,5]
+for e in lista:
+    print (e, ' ') # itera por cada um dos elementos da lista
+```
+
+```txt
+1 2 3 4 5
+```
+
+* Busca de um elemento dentro de uma lista
+
+```ipynb
+lista = [ 1, 2, 3, 4, 5]
+busca = 3
+for e in lista:
+    if e == busca:
+        print('Achou ', e)
+        break # interrompe o loop
+```
+
+```txt
+Achou  3
+```
+
+* Função `range()` retorna um gerador
+
+```ipynb
+# RANGE
+for i in range(10):
+    print(i, end=' ')
+```
+
+```txt
+0 1 2 3 4 5 6 7 8 9 
+```
+
+```ipynb
+# RANGE
+for i in range(2,10,2): # inicio, até intervalo aberto, salto
+    print(i, end=' ')
+```
+
 
 
 
