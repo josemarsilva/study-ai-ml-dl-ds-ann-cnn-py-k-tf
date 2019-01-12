@@ -19,7 +19,7 @@ pip3 install jupyter
 
 ### 2.2.1. Variáveis
 
-* JupyterNotebook deste exercício disponível [Variables.ipynb](src/ipynb/02-PythonVariables/Variables.ipynb)
+* JupyterNotebook deste exercício disponível [Variables.ipynb](src/ipynb/02-PythonVariables.ipynb)
 * Aspas duplas ou simples delimitam o string
 * Nome de variáveis: iniciado por letras, seguido de letras ou números ou underscore
   * O que não pode: começar com números ou ter espaços
@@ -58,7 +58,7 @@ False
 
 ### 2.2.2. Operadores
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/03-PythonOperators/Operators.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/03-Operators.ipynb)
 * Operadores relacionais
 
 ```ipynb
@@ -133,7 +133,7 @@ False
 
 ### 2.2.3. String
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/04-StringVariables/StringVariables.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/04-StringVariables.ipynb)
 * Lembre-se que em Python tudo é um objeto. Um string é um objeto que vem com métodos que podem ser executados
 * Lembre-se que o String é imutável, você não pode mudar o seu conteúdo
 
@@ -204,7 +204,7 @@ João tem 20 anos e namora Maria. Altura média deles é 1.600000
 
 ### 2.2.4. Entrada de dados
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/05-EntradaDeDados/EntradaDeDados.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/05-EntradaDeDados.ipynb)
 * Permite que você entre valores para um trecho de programa
 * A função `input()` sempre retorna valores String!!! Lembrando que o Python dificilmente faz conversão implícitas, então se estiver lendo um número e queira fazer operações aritméticas, você precisará convertê-lo
 
@@ -243,9 +243,9 @@ ValueError: invalid literal for int() with base 10: 'string'
 
 ### 2.2.5. Condições
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/06-Condicoes/Condicoes.ipynb)
-* Python utiliza deslocamente de texto para identar o programa. Não possui marcações do tipo ( begin, end )
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/06-Condicoes.ipynb)
 * As [Condições](https://www.tutorialspoint.com/python/python_if_else.htm) : `if ( condição ):`, `else:` e `elif ( condição ):`
+* Python utiliza deslocamento de texto para identar o programa. Não possui marcações do tipo ( begin, end )
 
 ```ipynb
 idade = 20
@@ -298,12 +298,12 @@ Preco é 30
 
 ### 2.2.6. Repetições
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/07-Repeticoes/Repeticoes.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/07-Repeticoes.ipynb)
 
 ```ipynb
 count = 1
 while count <= 10:
-    print(count, ' ')
+    print(count, end=' ')
     count += 1 # count = count + 1
 ```
 
@@ -338,7 +338,7 @@ while tabuada <= 10:
 
 ### 2.2.7. Listas
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/08-Listas/Listas.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/08-Listas.ipynb)
 * As [Listas](https://docs.python.org/3/tutorial/introduction.html#lists) é um tipo de variável que permite o armazenamento de vários valores acessados por um índice
 * Você pode consultar os métodos aplicáveis a uma lista `help(list)`
 * As listas são estruturas que podemm armazenar informções heterogêneas, isto é de tipos de dados difrentes. Ex: int, String, Double, etc
@@ -383,7 +383,7 @@ print(lista)
 lista = [1, 2, 3, 4]
 cont = 1
 while cont <= len(lista):
-    print(lista[cont-1], ' ')
+    print(lista[cont-1], end=' ')
     cont +=1
 ```
 
@@ -468,12 +468,13 @@ print(lista)
 
 ### 2.2.8. Estrutura de Repetição FOR
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/09-EstruturaRepeticaoFor/EstruturaRepeticaoFor.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/09-EstruturaRepeticaoFor.ipynb)
+* [FOR](https://docs.python.org/3/tutorial/controlflow.html#for-statements) mecanismo de repeticao
 
 ```ipynb
 lista = [1,2,3,4,5]
 for e in lista:
-    print (e, ' ') # itera por cada um dos elementos da lista
+    print (e, end=' ') # itera por cada um dos elementos da lista
 ```
 
 ```txt
@@ -514,6 +515,153 @@ for i in range(2,10,2): # inicio, até intervalo aberto, salto
 ```
 
 
+### 2.2.9. Tuplas
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/10-Tuplas.ipynb)
+* [Tupla](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences) é um objeto **imutável**. Seu estado é congelado na inicialização e não se pode mais modificá-lo.
+* A representação de tupla é parênteses: "(" e ")". Lembrando que a representação de listas é colchetes: "[" e "]"
+* Tupla também é **heterogêneas** assim como a lista
+* Para saber os métodos de uma tupla pode usar o help `help(tuple)`
+
+
+```ipynb
+tupla = ( 1, 'josemar', 3.1415)
+print(tupla[0]) # Indexavel
+print(tupla[-2:])
+```
+
+```txt
+1
+('josemar', 3.1415)
+```
+
+```ipynb
+tupla = ( 1, 2, 2, 3, 3, 3, 4, 4, 4, 4)
+print('count(3): ' , tupla.count(3)) # conta quantas vezes o 3 aparece
+print('index(4): ' , tupla.index(4)) # retorna o índice do primeiro 4 se não existir dará erro 
+print('len(): ',     len(tupla))     # tamanho
+```
+
+```txt
+count(3):  3
+index(4):  6
+len():  10
+```
+
+
+### 2.2.10. Conjuntos
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/11-Conjuntos.ipynb)
+* [SET](https://docs.python.org/3/tutorial/datastructures.html#sets) são estruturas utilizadas para representar coleções **desordenadas** de elementos **únicos**
+* Conjuntos **não suportam** indexação, fatiamento, não podemos ter confiança na ordem que será apresentado
+* Você pode fazer operações com conjuntos: `union()`, `intersection()`, `difference()`
+
+```ipynb
+s = set()
+s.add(10)
+s.add(20)
+s.add(20) # repetido será ignorado
+s.add(30)
+s.add(30) # repetido será ignorado
+s.add(30) # repetido será ignorado
+print(s)
+```
+
+```txt
+{10, 20, 30}
+```
+
+```ipynb
+s1 = {2,1,3,4}
+s2 = {4,7,5,6,8}
+uniao = s1.union(s2)
+print('Uniao: ', uniao)
+itersecao = s1.intersection(s2)
+print('Intersection: ', itersecao)
+diferenca = s1.difference(s2)
+print('Difference: ', diferenca)
+```
+
+```txt
+Uniao:  {1, 2, 3, 4, 5, 6, 7, 8}
+Intersection:  {4}
+Difference:  {1, 2, 3}
+```
+ 
+* Suponha que você tenha uma lista com elementos repetidos e queira imprimir todos os elementos sem repetição
+
+```ipynb
+lista = [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,0,-1,-2,-2,-3,-3,-3]
+conjunto = set(lista)
+print('Lista: ', lista)
+print('Conjunto: ', conjunto)
+lista2 = list(conjunto)
+print('Lista2: ', lista2)
+```
+
+```
+Lista:  [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 0, -1, -2, -2, -3, -3, -3]
+Conjunto:  {0, 1, 2, 3, 4, 5, -2, -3, -1}
+Lista2:  [0, 1, 2, 3, 4, 5, -2, -3, -1]
+```
+
+
+### 2.2.11. Dicionários
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/12-Dicionarios.ipynb)
+* [Dicionários](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) são estruturas de dados semelhantes às listas, mas com propriedades de acesso diferentes. Ele é composto por um conjunto de (chave, valor). Dicionários são **mutáveis** e **heterogêneos**.
+* A principal diferença entre listas e dicionários, é que o método de acesso do dicionário é a chave e o da lista o índice
+* Você pode iterar pelo dicionário com o `for`
+
+```ipynb
+d = {'josemar': 49, 'maria': 45, 'guilherme': 25, 'gabrielle': 17}
+print('dicionário todo: ', d)
+print('indexando pela chave', d['guilherme']) # se a chave não existir vai dar erro
+d['melanie'] = 'pet da família' # dicionários são mutáveis, podem receber alterações e são heterogêneos
+print('todo dicionário novamente: ', d)
+
+print('chaves dos elementos: ', end=' ')
+for e in d:
+    print(e, end=' ')
+
+print('')
+print('valores dos elementos', end=' ')
+for e in d:
+    print(d[e], end=' ')
+
+
+print('Imprimir os elementos do dicionário de uma vez só: ', d.items() )
+print('Imprimir as chaves do dicionário de uma vez só: ', d.keys() )
+print('Imprimir os valores do dicionário de uma vez só: ', d.values() )
+```
+
+```txt
+dicionário todo:  {'josemar': 49, 'maria': 45, 'guilherme': 25, 'gabrielle': 17}
+indexando pela chave 25
+todo dicionário novamente:  {'josemar': 49, 'maria': 45, 'guilherme': 25, 'gabrielle': 17, 'melanie': 'pet da família'}
+chaves dos elementos:  josemar maria guilherme gabrielle melanie 
+valores dos elementos 49 45 25 17 pet da família Imprimir os elementos do dicionário de uma vez só:  dict_items([('josemar', 49), ('maria', 45), ('guilherme', 25), ('gabrielle', 17), ('melanie', 'pet da família')])
+Imprimir as chaves do dicionário de uma vez só:  dict_keys(['josemar', 'maria', 'guilherme', 'gabrielle', 'melanie'])
+Imprimir os valores do dicionário de uma vez só:  dict_values([49, 45, 25, 17, 'pet da família'])
+True
+```
+
+```ipynb
+print( 'maria está no dicionário? ', 'maria' in d )
+print( 'inexiste está no dicionário?' , 'inexiste' in d )
+```
+
+```txt
+maria está no dicionário?  True
+inexiste está no dicionário? False
+```
+
+
+### 2.2.12. Criando Funções
+
+* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/13-CriandoFuncoes.ipynb)
+* 
+
 
 
 # Referências
@@ -523,3 +671,4 @@ for i in range(2,10,2): # inicio, até intervalo aberto, salto
 * [Tutorial do Notebook Jupyter: Introdução, Configuração e Passo a Passo](https://www.youtube.com/watch?v=HW29067qVWk&t=72s)
 * [Python Tutorial](https://docs.python.org/3/tutorial/)
 * [Python Documentação](https://docs.python.org/3/library/index.html)
+
