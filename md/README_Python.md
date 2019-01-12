@@ -19,7 +19,7 @@ pip3 install jupyter
 
 ### 2.2.1. Variáveis
 
-* JupyterNotebook deste exercício disponível [Variables.ipynb](src/ipynb/02-PythonVariables.ipynb)
+* JupyterNotebook deste exercício disponível [Variables.ipynb](../src/ipynb/02-PythonVariables.ipynb)
 * Aspas duplas ou simples delimitam o string
 * Nome de variáveis: iniciado por letras, seguido de letras ou números ou underscore
   * O que não pode: começar com números ou ter espaços
@@ -58,7 +58,7 @@ False
 
 ### 2.2.2. Operadores
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/03-Operators.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/03-Operators.ipynb)
 * Operadores relacionais
 
 ```ipynb
@@ -133,7 +133,7 @@ False
 
 ### 2.2.3. String
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/04-StringVariables.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/04-StringVariables.ipynb)
 * Lembre-se que em Python tudo é um objeto. Um string é um objeto que vem com métodos que podem ser executados
 * Lembre-se que o String é imutável, você não pode mudar o seu conteúdo
 
@@ -204,7 +204,7 @@ João tem 20 anos e namora Maria. Altura média deles é 1.600000
 
 ### 2.2.4. Entrada de dados
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/05-EntradaDeDados.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/05-EntradaDeDados.ipynb)
 * Permite que você entre valores para um trecho de programa
 * A função `input()` sempre retorna valores String!!! Lembrando que o Python dificilmente faz conversão implícitas, então se estiver lendo um número e queira fazer operações aritméticas, você precisará convertê-lo
 
@@ -243,7 +243,7 @@ ValueError: invalid literal for int() with base 10: 'string'
 
 ### 2.2.5. Condições
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/06-Condicoes.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/06-Condicoes.ipynb)
 * As [Condições](https://www.tutorialspoint.com/python/python_if_else.htm) : `if ( condição ):`, `else:` e `elif ( condição ):`
 * Python utiliza deslocamento de texto para identar o programa. Não possui marcações do tipo ( begin, end )
 
@@ -298,7 +298,7 @@ Preco é 30
 
 ### 2.2.6. Repetições
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/07-Repeticoes.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/07-Repeticoes.ipynb)
 
 ```ipynb
 count = 1
@@ -338,7 +338,7 @@ while tabuada <= 10:
 
 ### 2.2.7. Listas
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/08-Listas.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/08-Listas.ipynb)
 * As [Listas](https://docs.python.org/3/tutorial/introduction.html#lists) é um tipo de variável que permite o armazenamento de vários valores acessados por um índice
 * Você pode consultar os métodos aplicáveis a uma lista `help(list)`
 * As listas são estruturas que podemm armazenar informções heterogêneas, isto é de tipos de dados difrentes. Ex: int, String, Double, etc
@@ -468,7 +468,7 @@ print(lista)
 
 ### 2.2.8. Estrutura de Repetição FOR
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/09-EstruturaRepeticaoFor.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/09-EstruturaRepeticaoFor.ipynb)
 * [FOR](https://docs.python.org/3/tutorial/controlflow.html#for-statements) mecanismo de repeticao
 
 ```ipynb
@@ -517,7 +517,7 @@ for i in range(2,10,2): # inicio, até intervalo aberto, salto
 
 ### 2.2.9. Tuplas
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/10-Tuplas.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/10-Tuplas.ipynb)
 * [Tupla](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences) é um objeto **imutável**. Seu estado é congelado na inicialização e não se pode mais modificá-lo.
 * A representação de tupla é parênteses: "(" e ")". Lembrando que a representação de listas é colchetes: "[" e "]"
 * Tupla também é **heterogêneas** assim como a lista
@@ -551,7 +551,7 @@ len():  10
 
 ### 2.2.10. Conjuntos
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/11-Conjuntos.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/11-Conjuntos.ipynb)
 * [SET](https://docs.python.org/3/tutorial/datastructures.html#sets) são estruturas utilizadas para representar coleções **desordenadas** de elementos **únicos**
 * Conjuntos **não suportam** indexação, fatiamento, não podemos ter confiança na ordem que será apresentado
 * Você pode fazer operações com conjuntos: `union()`, `intersection()`, `difference()`
@@ -608,7 +608,7 @@ Lista2:  [0, 1, 2, 3, 4, 5, -2, -3, -1]
 
 ### 2.2.11. Dicionários
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/12-Dicionarios.ipynb)
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/12-Dicionarios.ipynb)
 * [Dicionários](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) são estruturas de dados semelhantes às listas, mas com propriedades de acesso diferentes. Ele é composto por um conjunto de (chave, valor). Dicionários são **mutáveis** e **heterogêneos**.
 * A principal diferença entre listas e dicionários, é que o método de acesso do dicionário é a chave e o da lista o índice
 * Você pode iterar pelo dicionário com o `for`
@@ -659,8 +659,19 @@ inexiste está no dicionário? False
 
 ### 2.2.12. Criando Funções
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](src/ipynb/13-CriandoFuncoes.ipynb)
-* 
+* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/13-CriandoFuncoes.ipynb)
+
+
+```ipynb
+def somar(n1, n2):
+	return n1 + n2
+
+print(somar(1,2))
+print(somar(3,4))
+```
+
+```txt
+```
 
 
 
