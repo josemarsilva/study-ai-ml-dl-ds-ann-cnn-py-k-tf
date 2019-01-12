@@ -19,7 +19,7 @@ pip3 install jupyter
 
 ### 2.2.1. Variáveis
 
-* JupyterNotebook deste exercício disponível [Variables.ipynb](../src/ipynb/01-PythonLanguage/02-PythonVariables.ipynb)
+* JupyterNotebook deste exercício disponível [Variables.ipynb](../src/ipynb/01-PythonLanguage/02-Variables.ipynb)
 * Aspas duplas ou simples delimitam o string
 * Nome de variáveis: iniciado por letras, seguido de letras ou números ou underscore
   * O que não pode: começar com números ou ter espaços

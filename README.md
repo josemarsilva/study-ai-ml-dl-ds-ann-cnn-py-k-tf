@@ -7,8 +7,10 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 
 ### 2. Roteiros de estudo ###
 
-* [A revolução da _AI_](./md/README_Revolucao_da_AI.md)
-* História da _AI_ (Artificial Intelligence)
+* [A revolução da _AI_ - Inteligência Artificial](./md/README_Revolucao_da_AI.md)
+* [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
+* [Conceitos _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
+
 * _AI_ (Artificial Intelligence) vs ML (Machine Learning) vs DL (Deep Learning)
 * Introdução às _ANN_ (Artificial Neural Networks)
 * [Jupyter Notebook](./md/README_JupyterNotebook.md)
@@ -25,12 +27,12 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk)
 
 
-### AI, ML, DL, CNN e DS ###
+### Histórico, conceitos e definições ###
 
-* Vídeo [Inteligência Artificial, Machine Learning e Deep Learning (Exemplos e Diferenças)](https://www.youtube.com/watch?v=5UYpSE3dQSQ&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Introdutório dos conceitos, mostra a diferença entre AI vs ML vs DL, para não técnicos de forma bastante simples e efetiva
-* Vídeo [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Bom histórico, excelente didática
 * Vídeo [Inteligência Artificial: CNN e CUDA, uma breve introdução](https://www.youtube.com/watch?v=j8E_i6-qtbA&index=14&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: PT-BR Bom histórico sobre Rede Neural Convolucinal, Lenet: reconhecimento de caracter, TensorFlow, Imagenet
+* Vídeo [Inteligência Artificial, Machine Learning e Deep Learning (Exemplos e Diferenças)](https://www.youtube.com/watch?v=5UYpSE3dQSQ&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Introdutório dos conceitos, mostra a diferença entre AI vs ML vs DL, para não técnicos de forma bastante simples e efetiva
+* Vídeo [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Bom histórico, excelente didática
 * Vídeo [Deep Learning - Redes Neurais Convolucionais](https://www.youtube.com/watch?v=DXnyuUZcAAI&index=10&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: PT-BR Explica rede neurais através de exemplo com imagens. Explica a convulução. Mostra a mecânica de algorítimos matemáticos por traz do process.
 * Vídeo [Deep learning: do conceito à execução](https://www.youtube.com/watch?v=KIvB5LFbA0w&index=13&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
