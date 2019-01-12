@@ -1,8 +1,8 @@
-# study-ai-ml-dl-ds-rna-cnn-py-k-tf
+# study-ai-ml-dl-ds-ann-cnn-py-k-tf
 
 ## 1. Introdução ##
 
-Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artificial Intelligence), _ML_ (Machine Learning), _DL_ (Deep Learning), _DS_ (Data Science), _RNA_ (Redes Neurais Artificiais), _CNN_ (Convolucinal Neural Network), _Py_ (Python lingaugem de programação), _K_ (Keras) e _TF_ (TensorFlow).
+Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artificial Intelligence), _ML_ (Machine Learning), _DL_ (Deep Learning), _DS_ (Data Science), _ANN_ (Artificial Neural Networks), _CNN_ (Convolucinal Neural Network), _Py_ (Python lingaugem de programação), _K_ (Keras) e _TF_ (TensorFlow).
 
 
 ### 2. Roteiros de estudo ###
@@ -10,7 +10,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [A revolução da _AI_](./md/README_Revolucao_da_AI.md)
 * História da _AI_ (Artificial Intelligence)
 * _AI_ (Artificial Intelligence) vs ML (Machine Learning) vs DL (Deep Learning)
-* Introdução às _RNA_ (Redes Neurais Artificiais)
+* Introdução às _ANN_ (Artificial Neural Networks)
 * [Jupyter Notebook](./md/README_JupyterNotebook.md)
 * [Introdução Programação Python](./md/README_Python.md)
 * Tensor Flow
