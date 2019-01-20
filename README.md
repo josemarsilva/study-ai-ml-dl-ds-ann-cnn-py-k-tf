@@ -15,6 +15,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [Pacote **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
 * [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
 * [**Operações com Matrizes** em **Python**](./md/README_PythonMatrizes.md)
+* [Visualizando os dados com **Matplotlib**](./md/README_PythonMatplotlib.md)
 
 * Introdução às _ANN_ (Artificial Neural Networks)
 * Tensor Flow
