@@ -19,7 +19,7 @@ pip3 install jupyter
 
 ### 2.2.1. Variáveis
 
-* JupyterNotebook deste exercício disponível [Variables.ipynb](../src/ipynb/01-PythonLanguage/02-Variables.ipynb)
+* Jupyter-Notebook deste exercício disponível [Variables.ipynb](../src/ipynb/01-PythonLanguage/02-Variables.ipynb)
 * Aspas duplas ou simples delimitam o string
 * Nome de variáveis: iniciado por letras, seguido de letras ou números ou underscore
   * O que não pode: começar com números ou ter espaços
@@ -58,7 +58,7 @@ False
 
 ### 2.2.2. Operadores
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/03-Operators.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/03-Operators.ipynb)
 * Operadores relacionais
 
 ```ipynb
@@ -133,7 +133,7 @@ False
 
 ### 2.2.3. String
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/04-StringVariables.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/04-StringVariables.ipynb)
 * Lembre-se que em Python tudo é um objeto. Um string é um objeto que vem com métodos que podem ser executados
 * Lembre-se que o String é imutável, você não pode mudar o seu conteúdo
 
@@ -204,7 +204,7 @@ João tem 20 anos e namora Maria. Altura média deles é 1.600000
 
 ### 2.2.4. Entrada de dados
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/05-EntradaDeDados.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/05-EntradaDeDados.ipynb)
 * Permite que você entre valores para um trecho de programa
 * A função `input()` sempre retorna valores String!!! Lembrando que o Python dificilmente faz conversão implícitas, então se estiver lendo um número e queira fazer operações aritméticas, você precisará convertê-lo
 
@@ -243,7 +243,7 @@ ValueError: invalid literal for int() with base 10: 'string'
 
 ### 2.2.5. Condições
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/06-Condicoes.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/06-Condicoes.ipynb)
 * As [Condições](https://www.tutorialspoint.com/python/python_if_else.htm) : `if ( condição ):`, `else:` e `elif ( condição ):`
 * Python utiliza deslocamento de texto para identar o programa. Não possui marcações do tipo ( begin, end )
 
@@ -298,7 +298,7 @@ Preco é 30
 
 ### 2.2.6. Repetições
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/07-Repeticoes.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/07-Repeticoes.ipynb)
 
 ```ipynb
 count = 1
@@ -338,7 +338,7 @@ while tabuada <= 10:
 
 ### 2.2.7. Listas
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/08-Listas.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/08-Listas.ipynb)
 * As [Listas](https://docs.python.org/3/tutorial/introduction.html#lists) é um tipo de variável que permite o armazenamento de vários valores acessados por um índice
 * Você pode consultar os métodos aplicáveis a uma lista `help(list)`
 * As listas são estruturas que podemm armazenar informções heterogêneas, isto é de tipos de dados difrentes. Ex: int, String, Double, etc
@@ -468,7 +468,7 @@ print(lista)
 
 ### 2.2.8. Estrutura de Repetição FOR
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/09-EstruturaRepeticaoFor.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/09-EstruturaRepeticaoFor.ipynb)
 * [FOR](https://docs.python.org/3/tutorial/controlflow.html#for-statements) mecanismo de repeticao
 
 ```ipynb
@@ -517,7 +517,7 @@ for i in range(2,10,2): # inicio, até intervalo aberto, salto
 
 ### 2.2.9. Tuplas
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/10-Tuplas.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/10-Tuplas.ipynb)
 * [Tupla](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences) é um objeto **imutável**. Seu estado é congelado na inicialização e não se pode mais modificá-lo.
 * A representação de tupla é parênteses: "(" e ")". Lembrando que a representação de listas é colchetes: "[" e "]"
 * Tupla também é **heterogêneas** assim como a lista
@@ -551,7 +551,7 @@ len():  10
 
 ### 2.2.10. Conjuntos
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/11-Conjuntos.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/11-Conjuntos.ipynb)
 * [SET](https://docs.python.org/3/tutorial/datastructures.html#sets) são estruturas utilizadas para representar coleções **desordenadas** de elementos **únicos**
 * Conjuntos **não suportam** indexação, fatiamento, não podemos ter confiança na ordem que será apresentado
 * Você pode fazer operações com conjuntos: `union()`, `intersection()`, `difference()`
@@ -608,7 +608,7 @@ Lista2:  [0, 1, 2, 3, 4, 5, -2, -3, -1]
 
 ### 2.2.11. Dicionários
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/12-Dicionarios.ipynb)
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/12-Dicionarios.ipynb)
 * [Dicionários](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) são estruturas de dados semelhantes às listas, mas com propriedades de acesso diferentes. Ele é composto por um conjunto de (chave, valor). Dicionários são **mutáveis** e **heterogêneos**.
 * A principal diferença entre listas e dicionários, é que o método de acesso do dicionário é a chave e o da lista o índice
 * Você pode iterar pelo dicionário com o `for`
@@ -659,19 +659,338 @@ inexiste está no dicionário? False
 
 ### 2.2.12. Criando Funções
 
-* JupyterNotebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/13-CriandoFuncoes.ipynb)
-
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/13-CriandoFuncoes.ipynb)
+* Uma função pode ter o número de argumentos de parâmetros dinâmico: `func(*args):` ou opcionais com valores defaults `imprimir(nome='desconhecido')`
+* Uma função também é um objeto, e pode chamar a ela mesma (recursividade)
+* Python pode chamar funcoes La
 
 ```ipynb
 def somar(n1, n2):
-	return n1 + n2
+    return n1 + n2
 
-print(somar(1,2))
-print(somar(3,4))
+print('resultado da funcao :' , somar( 1, 2) )
+
+def retorna_qualquer_coisa():
+    return "qualquer_coisa"
+
+print ( retorna_qualquer_coisa() )
+
+def eh_par(n):
+    return n % 2 == 0;
+
+print(eh_par(1));
+print(eh_par(2));
 ```
 
 ```txt
+resultado da funcao : 3
+qualquer_coisa
+False
+True
 ```
+
+
+
+### 2.2.13. Mòdulos
+
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/14-Modulos.ipynb)
+* Um módulo nada mais é do que um arquivo .py que deverá ser importado em seu programa
+* No Jupyter-Notebook a [sintaxe](https://stackoverflow.com/questions/21034373/how-to-load-edit-run-save-text-files-py-into-an-ipython-notebook-cell) é `%load` isto provoca a 
+
+
+def area_quadrado(lado):
+    return lado * lado
+
+def area_retangulo(lado1, lado2):
+    return lado1 * lado2
+
+def perimetro_quadrado(lado):
+    return 4 * lado
+
+# agora coloque estas 3 funções em um arquivo chamado my_module.py
+```ipynb
+
+* Se você estiver usando o Jupyter-Notebook Então vamos forçar o Jupyter-Notebook a reiniciar `Menu :: Kernel >> Restart & Clear Output` desta forma temos certeza que as definições destas funções se foram
+* Para carregar o arquivo de módulo faça: `%load my_module.py`
+* O trecho abaixo só vai funcionar em linha de comando ou se você colocar o arquivo `my_module.py` na pasta do Jupyter-Notebook
+* Import universal: `from math import *` importa todas as definições. É perigoso porque dois módulos podem importar uma mesma função com o mesmo nome e a que fica valendo é a última importada, logo é uma **boa prática** sempre ser específico nas funções de sua importação.
+
+```ipynb
+from my_module import area_quadrado
+from my_module import area_retangulo
+from my_module import perimetro_quadrado
+
+print(area_quadrado(2))
+print(area_retangulo(3,4))
+print(perimetro_quadrado(3))
+```
+
+```txt
+4
+12
+12
+```
+
+* importando bibliotecas de sistemas
+
+```ipynb
+import math
+print('factorial: ', math.factorial(5))
+print('sqrt: ', math.sqrt(25))
+```
+
+```ipynb
+factorial:  120
+sqrt:  5.0
+```
+
+
+### 2.2.14. Arquivos
+
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/15-CriandoArquivos.ipynb)
+* Um módulo nada mais é do que um arquivo .py que deverá ser importado em seu programa
+
+```ipynb
+# Funcao: open( especificação do arquivo, modos)
+
+arq = open('teste-arquivo.txt', 'w' ) # abre o arquivo para escrita
+arq.write('escrevi qualquer coisa')   # escrevemos alguma coisa no arquivo
+arq.write('\ne oura coisa')   # escrevemos alguma coisa no arquivo
+arq.close()                           # fechei o arquivo
+
+texto = '''
+Aprendendo Python
+Machine Learning
+Esta muito facil
+'''
+arq = open('teste-arquivo.txt', 'a' ) # abre o arquivo para escrita ao seu final
+arq.write(texto)
+arq.close()
+
+with open('teste-arquivo-2.txt', 'w' ) as f: # abre o arquivo para escrita
+    f.write(texto)
+```
+
+* veja o conteúdo dos arquivos `teste-arquivo.txt` e `teste-arquivo-2.txt` na mesma pasta de seu Jupyter-Notebook
+
+```ipynb
+with open('dataset.txt', 'r') as f: 
+    print(f.readlines())
+
+with open('dataset.txt', 'r') as f: 
+    for line in f.readlines():
+        print(line)
+		
+with open('dataset.txt', 'r') as f: 
+    lista = f.read().splitlines()
+    print(lista)
+
+print('Somente primeiro elemento da lista: ', lista[0])
+```
+
+
+### 2.2.15. Orientacao Objeto
+
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/16-OrientacaoObjeto.ipynb)
+* Python é uma linguagem com múltiplos paradigmas, inclusive **orientação a objeto**
+* Em Python tudo é um objeto
+* Para definir uma [classe](https://docs.python.org/3.7/tutorial/classes.html) em Python, utiliza-se a palavra chave `class`
+* Em Python os métodos também são atributos
+
+```ipynb
+class Conta:
+    
+    def __init__(self, nome_cliente, numero_conta):
+        self.nome_cliente = nome_cliente
+        self.numero_conta = numero_conta
+
+class  ContaEspecial(Conta): # herda da superclasse Conta
+    
+    def __init__(self, nome_cliente, numero_conta, limite=0):
+        Conta.__init__(self, nome_cliente, numero_conta) # acionando o construtor da superclasse
+        self.limite = limite
+        
+conta = ContaEspecial( 'josemar', '1234-5', 100)
+print('Titular:', conta.nome_cliente)
+print('No.Conta:', conta.numero_conta)
+print('Limite:', conta.limite)
+
+print('type do objeto conta:', type(conta))
+```
+
+```txt
+Titular: josemar
+No.Conta: 1234-5
+Limite: 100
+type do objeto conta: <class '__main__.ContaEspecial'>
+```
+
+
+### 2.2.16. Programação Funcional
+
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/01-PythonLanguage/17-ProgramacaoFuncional.ipynb)
+* Python é uma linguagem com múltiplos paradigmas, inclusive **funcional**. Para uma programação funcional, os resultados retornados por uma função deve depender unicamente dos parâmetros de entrada. Você é obrigado a quebrar o seu programa em pequenos pedaços, é mais fácil de debugar, etc.
+* Expressões `lambda` são pequenas funções anônimas.
+* Função `filter` aplica uma função a uma sequencia ou lista
+* Função `map` também recebe como parâmetro uma função mas o resultado da função é calculado sobre cada elemento da sequencia
+
+```ipynb
+dobro = lambda x: x * 2                          # lambda
+dobro(5)
+soma = lambda x, y: x + y                        # lambda n parâmetros
+soma(1, 2)
+lista = [1,2,3,4,5,6,7,8,9,10]
+list( filter(lambda par: par % 2 == 0, lista) )  # filter
+list(map(lambda duplica: duplica * 2, lista))    # map
+```
+
+```txt
+10
+3
+[2, 4, 6, 8, 10]
+[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+```
+
+
+## 2.3. Exercícios em Python
+
+### 2.3.1. Orientação Objeto - Jogo matriz de recompensa
+Vamos fazer um joguinho que permita que um robô ande por uma matriz 10x10 e encontre recompensas. Iremos utilizar Orientação a Objetos (OO) em Python.
+
+* Jupyter-Notebook deste exercício disponível [Operators.ipynb](../src/ipynb/02-PythonOrientacaoObjeto/01-JogoMatrizRecompensa.ipynb)
+* Relembrando: em Python tudo é objeto
+* O primeiro parâmetro é `self` que informa a instância do objeto da classe. Pode ser omitido
+* O método `__init__` é uma convenção para o construtor
+* Uma classe pode herdar as características de outra, para tal em sua definição deve explicitar a super classe `class ClasseFilha(ClasseSuper):`
+* O método `__str__` é uma convenção de impressão dos dados de um objeto
+
+* **Classe Ponto**: define um ponto no tabuleiro da matriz 10 x 10
+
+```ipynb
+class Ponto:
+    
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        
+    def __str__(self):
+        return '<%s, %s>' % (self.x, self.y)   
+```
+
+* **Classe Recompensa**: Define uma recompensa que o Robo pode pegar se passar pela posição
+```ipynb
+class Recompensa(Ponto):
+    
+    def __init__(self, x, y, nome):
+        super(Recompensa, self).__init__(x, y)
+        self.nome = nome
+        
+    def __str__(self):
+        return '<%s, %s, %s>' % (self.x, self.y, self.nome)
+    
+    def __repr__(self):
+        return self.__str__()
+```
+
+* **Classe Robo**: Define o robo que tem uma posição(x,y) e faz movimentos (up, down, left, right)
+```ipynb
+class Robo:
+    
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        
+    def __str__(self):
+        return '<%s,%s>' % (self.x, self.y)
+
+    def move_up(self):
+        if self.y < 10:
+            self.y = self.y + 1
+        else:
+            print('movimento(y+1) invalido!')
+
+    def move_down(self):
+        if self.y > 0:
+            self.y = self.y - 1
+        else:
+            print('movimento(y-1) invalido!')
+
+    def move_right(self):
+        if self.x < 10:
+            self.x = self.x + 1
+        else:
+            print('movimento(x+1) invalido!')
+
+    def move_left(self):
+        if self.x > 0:
+            self.x = self.x - 1
+        else:
+            print('movimento(x-1) invalido!')
+
+r1 = Robo(5,5)
+print('Robo r1 (%i,%i)' % (r1.x, r1.y))
+print(r1)
+```
+
+* **Função check_recompensa**: Verifica se o robo, na posição onde está, pegou alguma recompensa. Caso afirmativo mostra a lista.
+
+```ipynb
+def check_recompensa(robo, recompensas):
+    retorno = False
+    for recompensa in recompensas:
+        if recompensa.x == robo.x and recompensa.y == robo.y:
+            print('robo achou a recompensa %s' % recompensa.nome) # mostra todas as recompensas que o robo pode ter pego
+            retorno = True
+    return retorno
+```
+
+* **Bloco principal - Parte 1**: Cria a lista de recompensas
+
+```ipynb
+import random
+recompensa1 = Recompensa(random.randint(0,10), random.randint(0,10), 'moeda')
+recompensa2 = Recompensa(random.randint(0,10), random.randint(0,10), 'gasolina')
+recompensa3 = Recompensa(random.randint(0,10), random.randint(0,10), 'arma')
+recompensa4 = Recompensa(random.randint(0,10), random.randint(0,10), 'moeda')
+recompensa5 = Recompensa(random.randint(0,10), random.randint(0,10), 'gasolina')
+recompensa6 = Recompensa(random.randint(0,10), random.randint(0,10), 'arma')
+recompensa7 = Recompensa(random.randint(0,10), random.randint(0,10), 'moeda')
+recompensa8 = Recompensa(random.randint(0,10), random.randint(0,10), 'gasolina')
+recompensa9 = Recompensa(random.randint(0,10), random.randint(0,10), 'arma')
+recompensas = [recompensa1, recompensa2, recompensa3, recompensa4, recompensa5, recompensa6, recompensa7, recompensa8, recompensa9]
+```
+ 
+* **Bloco principal - Parte 2**: Interage com o usuário pedindo os movimentos do robo, executa os movimentos e verifica se encontrou alguma recompensa em cada movimento realizado.
+
+```ipynb
+robo = Robo(random.randint(0,10), random.randint(0,10))
+for i in range(0,10):
+    movimento = input('Digite "up", "down", "left" ou "right"')
+    if movimento == 'up':
+        robo.move_up()
+    elif movimento == 'down':
+        robo.move_down()
+    elif movimento == 'left':
+        robo.move_left()
+    elif movimento == 'right':
+        robo.move_right()
+    else:
+        print('Movimento inválido!')
+        continue  # não interrompe o loop e volta para o início do bloco
+    print(robo)
+    check_recompensa(robo,recompensas)
+
+# No final mostra onde estão as 9 recompensas
+recompensas
+```
+
+
+
+### 2.3.2. Métodos mágicos
+Os métodos mágicos são métodos que por convensão você sabe que todo objeto tem e pode usar. Exemplo:
+* `__init__`: é o construtor de todo objeto
+* `__str__`: é o método que invocado para imprimir o objeto. O `print()` de um objeto. Quando você quer que o objeto se mostra.
+* `__repr__`: é o método que invocado para mostrar a representação string o objeto
 
 
 

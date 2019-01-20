@@ -1,4 +1,4 @@
-# study-ai-ml-dl-ds-ann-cnn-py-k-tf
+# README study-ai-ml-dl-ds-ann-cnn-py-k-tf
 
 ## 1. Introdução ##
 
@@ -9,12 +9,14 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 
 * [A revolução da _AI_ - Inteligência Artificial](./md/README_Revolucao_da_AI.md)
 * [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
-* [Conceitos _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
+* [Conceitos, definições , termos e glossário _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
+* [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md) e [Introdução Programação Python](./md/README_Python.md)
+* [Manipulando **DataSet** em **Python**](./md/README_PythonDataSetManipulation.md)
+* [Pacote **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
+* [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
+* [**Operações com Matrizes** em **Python**](./md/README_PythonMatrizes.md)
 
-* _AI_ (Artificial Intelligence) vs ML (Machine Learning) vs DL (Deep Learning)
 * Introdução às _ANN_ (Artificial Neural Networks)
-* [Jupyter Notebook](./md/README_JupyterNotebook.md)
-* [Introdução Programação Python](./md/README_Python.md)
 * Tensor Flow
 
 
@@ -27,10 +29,13 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk)
 
 
-### Histórico, conceitos e definições ###
+### História ###
 
 * Vídeo [Inteligência Artificial: CNN e CUDA, uma breve introdução](https://www.youtube.com/watch?v=j8E_i6-qtbA&index=14&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: PT-BR Bom histórico sobre Rede Neural Convolucinal, Lenet: reconhecimento de caracter, TensorFlow, Imagenet
+
+
+### Conceitos ###
 * Vídeo [Inteligência Artificial, Machine Learning e Deep Learning (Exemplos e Diferenças)](https://www.youtube.com/watch?v=5UYpSE3dQSQ&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Introdutório dos conceitos, mostra a diferença entre AI vs ML vs DL, para não técnicos de forma bastante simples e efetiva
 * Vídeo [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Bom histórico, excelente didática
 * Vídeo [Deep Learning - Redes Neurais Convolucionais](https://www.youtube.com/watch?v=DXnyuUZcAAI&index=10&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)

@@ -7,6 +7,9 @@ Neste capítulo separei todos os marcos históricos de _AI_ - Inteligência Arti
 
 # 2. História
 
+### 1950
+O [Teste de Turing](https://pt.wikipedia.org/wiki/Teste_de_Turing#Pr%C3%AAmio_de_Loebner) foi introduzido por Alan Turing em seu artigo de 1950 "Computing Machinery and Intelligence", que começa com as palavras: "Eu proponho considerar a questão 'As máquinas podem pensar?'". Já que "pensar" é difícil de definir, Turing preferiu "trocar a pergunta por outra, a qual está relacionada à anterior, e é expressa em palavras menos ambíguas, A nova pergunta de Turing é: "Há como imaginar um computador digital que faria bem o 'jogo da imitação?"'.
+
 ### 1957
 O primeiro avanço público da _AI_ foi um programa que aprendeu jogar damas melhor que o homem em 1.957. Analisando os dados de milhares de partidas, o programa aprendeu quais jogadas trariam maiores chances de vitória. Este processo foi chamado de _ML_ (Machine Learning). 
 
