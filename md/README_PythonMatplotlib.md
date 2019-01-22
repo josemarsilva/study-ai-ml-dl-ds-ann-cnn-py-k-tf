@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 plt.plot([1,2,3],[5,7,4])
 plt.show()
 ```
-!matplotlib-01.png!
+![matplotlib-01.png](matplotlib-01.png)
 
 
 ## 2.4. Títulos de eixo - xlabel(), ylabel(), title()
@@ -47,7 +47,8 @@ plt.ylabel('Important vars')
 plt.title('Gráfico Interessante\nsee details')
 plt.show()
 ```
-!matplotlib-02.png!
+
+![matplotlib-02.png](matplotlib-02.png)
 
 
 ## 2.5. Mais de uma linha no gráfico 2D com lables
@@ -69,7 +70,7 @@ plt.title('Gráfico Interessante\nsee details')
 plt.show()
 ```
 
-!matplotlib-03.png!
+![matplotlib-03.png](matplotlib-03.png)
 
 
 ## 2.6. Bar Chart e Histogram
@@ -120,9 +121,9 @@ plt.legend()
 plt.show()
 ```
 
-!matplotlib-04.png!
-!matplotlib-04b.png!
-!matplotlib-04c.png!
+![matplotlib-04.png](matplotlib-04.png)
+![matplotlib-04b.png](matplotlib-04b.png)
+![matplotlib-04c.png](matplotlib-04c.png)
 
 
 ## 2.7. Scatter Plots
@@ -144,7 +145,7 @@ plt.legend()
 plt.show()
 ```
 
-!matplotlib-05.png!
+![matplotlib-05.png](matplotlib-05.png)
 
 
 ## 2.8. Stack Plots (gráficos empilhados)
@@ -175,7 +176,7 @@ plt.legend()
 plt.show()
 ```
 
-!matplotlib-06.png!
+![matplotlib-06.png](matplotlib-06.png)
 
 
 ### 2.9. Pie Chart
@@ -204,7 +205,7 @@ plt.title('Pie Chart')
 plt.show()
 ```
 
-!matplotlib-07.png!
+![matplotlib-07.png](matplotlib-07.png)
 
 
 ## 2.10. Carregando dados do gráfico de arquivo 
@@ -248,7 +249,7 @@ plt.legend()
 plt.show()
 ```
 
-!matplolib-08.png!
+![matplotlib-08.png](matplotlib-08.png)
 
 
 
