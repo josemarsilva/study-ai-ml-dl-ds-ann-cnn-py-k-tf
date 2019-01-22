@@ -10,11 +10,11 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [A revolução da _AI_ - Inteligência Artificial](./md/README_Revolucao_da_AI.md)
 * [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
 * [Conceitos, definições , termos e glossário _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
-* [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md) e [Introdução Programação Python](./md/README_Python.md)
+* [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md) e [Introdução **Programação Python**](./md/README_Python.md)
 * [Manipulando **DataSet** em **Python**](./md/README_PythonDataSetManipulation.md)
 * [Pacote **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
 * [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
-* [**Operações com Matrizes** em **Python**](./md/README_PythonMatrizes.md)
+* [**Operações** com **elementos de Matriz** em **Python**](./md/README_PythonMatrizes.md)
 * [Visualizando os dados com **Matplotlib**](./md/README_PythonMatplotlib.md)
 
 * Introdução às _ANN_ (Artificial Neural Networks)
