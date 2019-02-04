@@ -108,6 +108,15 @@ Ps: Não existe a **melhor** técnica e sim a mais adequada levando em considera
 Processo de agrupar objetos em classes de objetos similares. Cluster é uma coleção de objeto que é similar a outros de acordo com um critério de similiradade.
 
 
+### Regressão Linear
+Em estatística ou econometria, regressão linear é uma equação para se estimar a condicional (valor esperado) de uma variável y, dados os valores de algumas outras variáveis x.
+
+### Regressão Linear Simples
+Regressão Linear Simples é quando temos uma única variável explanatória (x).
+
+
+### Regressão Linear Múltipla
+Regressão múltipla é uma coleção de técnicas estatísticas para construir modelos que descrevem de maneira razoável relações entre várias variáveis explicativas de um determinado processo. A diferença entre a regressão linear simples e a múltipla é que na múltipla são tratadas duas ou mais variáveis explicativas.
 
 
 

@@ -12,10 +12,12 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [Conceitos, definições , termos e glossário _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
 * [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md) e [Introdução **Programação Python**](./md/README_Python.md)
 * [Manipulando **DataSet** em **Python**](./md/README_PythonDataSetManipulation.md)
-* [Pacote **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
+* [Pacote/biblioteca **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
 * [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
 * [**Operações** com **elementos de Matriz** em **Python**](./md/README_PythonMatrizes.md)
 * [Visualizando os dados com **Matplotlib**](./md/README_PythonMatplotlib.md)
+* [Pacote/biblioteca **pygame** ](./md/README_PythonPygame.md) e [Rede Neural aprendizado supervisionado para jogar Ping Pong](./md/README_PythonPygameRedeNeuralJogoPegaBolinhaLancada.md)
+* [Regressão Linear](./md/README_PythonRegressaoLinear_com_NumPy_Matplotlib.md)
 
 * Introdução às _ANN_ (Artificial Neural Networks)
 * Tensor Flow
@@ -28,6 +30,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 ### Revolução, Negócios, aspectos sociológicos, etc ###
 
 * [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk)
+* [Vídeo the BEST BOOK on Machine Learning](https://www.youtube.com/watch?v=1RiFIYwuwHM&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
 
 
 ### História ###
@@ -41,7 +44,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * Vídeo [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Bom histórico, excelente didática
 * Vídeo [Deep Learning - Redes Neurais Convolucionais](https://www.youtube.com/watch?v=DXnyuUZcAAI&index=10&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: PT-BR Explica rede neurais através de exemplo com imagens. Explica a convulução. Mostra a mecânica de algorítimos matemáticos por traz do process.
-* Vídeo [Deep learning: do conceito à execução](https://www.youtube.com/watch?v=KIvB5LFbA0w&index=13&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
+* Vídeo [Deep learning: do conceito à execução](https://www.youtube.com/watch?v=KIvB5LFbA0w)
   * Comentário: Treinamento gratuito da Udacity para o assunto, bom início porém longo
 * Vídeo [A história da Inteligência Artificial - TecMundo](https://www.youtube.com/watch?v=Lhu8bdmkMCM)
   * Comentário: Treinamento gratuito da Udacity para o assunto, bom início, a primeira palestra é evangelização a segunda é mais interessante
@@ -52,7 +55,8 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
   * Comentário: PT-BR Conceitual um pouco pesado, mostra o problema de reconhecimento de escrita, reconhecimento de imagem, etc.
 * Vìdeo [MIT 6.S191 Lecture 1: Intro to Deep Learning](https://www.youtube.com/watch?v=IgSuFYamZas&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: EN Conceitual, mostra evolução, classificação de imagem
-
+* Vídeo Os profissionais de ciência de dados [parte 1](https://www.youtube.com/watch?v=A0YytJTmiE0) e [parte 2](https://www.youtube.com/watch?v=WnAnkFXFV3g)
+  
 
 ### TensorFlow ###
 

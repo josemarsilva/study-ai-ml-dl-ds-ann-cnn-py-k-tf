@@ -89,6 +89,14 @@ array - a1.argmin() 0  - atenção que o retorno é o índice do array
 * NumPy Arrays são mais compactos - consomem menos memória
 * NumPy Arrays são mais eficientes - acessos leituras e escritas são muito mais rápidos
 * Para computação científica vale muito a pena uso do NumPy
+* As vantangens de **NumPy** sobre as **Listas de Python**:
+  * **Economiza tempo de codificação**: Não há necessidade de loops em muitas operações de matrizes e vetores
+  * **Execução mais rápida**: 
+    * Um único tipo de dado para cada campo evita a necessidade de checkagem de tipo
+    * Uso contíguo da memória
+  * **Requerm menos memoria**:
+    * Python List é um vetor de ponteiros para objetos Python: são 4 bytes por ponteiro + 16 bytes para um objeto numérico
+    * **NumPy**: Não tem ponteiros, **todos** os **tipos** e os **tamanhos** dos itens **são os mesmos**
 
 ```ipynb
 import numpy as np
@@ -192,11 +200,246 @@ a4:
 ```
 
 
+## 2.6. NumPy `linspace` Espacamento linear entre dois elementos
+* A funçao `linespace()` gera automanticamente um espaçamento linear entre dois números
+
+```ipynb
+import numpy as np
+a = np.array([2,3,4])
+print('a: ', a)
+b = np.arange(1,12,2) # de 1 a 12, com  saltando de 2 em 2
+print('b: ' , b)
+c = np.linspace(1,12,6) # de 1 a 12, com 6 elementos distribuidos linearmente
+print('c: ', c)
+d = np.linspace(1,2,3) # de 1 a 2, com 3 elementos
+print('d: ', d)
+```
+
+```txt
+a:  [2 3 4]
+b:  [ 1  3  5  7  9 11]
+c:  [ 1.   3.2  5.4  7.6  9.8 12. ]
+d:  [1.  1.5 2. ]
+```
+
+## 2.7. NumPy `reshape()`, `shape` e `ndim()` - remodelando as dimensões de array
+* Como os dados são armazenados de forma contíguas, as transformações do tipo um vetor n dimensões ser convertido em uma matriz de n/2 x m
+
+```ipynb
+a = np.linspace(1,12,6) # de 1 a 12, com 6 elementos distribuidos linearmente
+print('a: ', a)
+b = a.reshape(3,2) # remodela o vetor de 6 posiçoes para uma matriz de 3x2
+print('b: ', b)
+c = b.reshape(1,6) # remodela a matriz devolta para o vetor (matriz de 1 x n)
+print('c: ', c)
+print('a.shape: ', a.shape)
+print('b.shape: ', b.shape)
+print('c.shape: ', c.shape)
+print('a.ndim: ', a.ndim)
+print('b.ndim: ', b.ndim)
+print('c.ndim: ', c.ndim)
+```
+
+```txt
+a:  [ 1.   3.2  5.4  7.6  9.8 12. ]
+b:  [[ 1.   3.2]
+ [ 5.4  7.6]
+ [ 9.8 12. ]]
+c:  [[ 1.   3.2  5.4  7.6  9.8 12. ]]
+a.shape:  (6,)
+b.shape:  (3, 2)
+c.shape:  (1, 6)
+a.ndim:  1
+b.ndim:  2
+c.ndim:  2
+```
+
+
+## 2.8. NumPy `size()` - número total de elementos do array e `itemsize`
+* a função `size()` retorna o número de elementos de um array
+* a função `itemsize()` retorna o tamanho em bytes de __cada__ elemento do array. Em um array de elementos do tipo float64 o `itemsize` 8 (=64/8), enquanto o tipo complex32 tem `itemsize` 4 (=32/8). Isto é equivalente a `ndarray.dtype.itemsize`
+
+```ipynb
+a = np.linspace(1,12,6) # de 1 a 12, com 6 elementos distribuidos linearmente
+b = a.reshape(3,2) # remodela o vetor de 6 posiçoes para uma matriz de 3x2
+c = np.array([1,2,3,4,5,6,7,8,9,0])
+print('a: ', a)
+print('b: ', b)
+print('c: ', c)
+print('a.size(): ', a.size)
+print('b.size(): ', b.size)
+print('c.size(): ', c.size)
+print('a.itemsize: ', a.itemsize)
+print('b.itemsize: ', b.itemsize)
+print('c.itemsize: ', c.itemsize)
+```
+
+```txt
+a:  [ 1.   3.2  5.4  7.6  9.8 12. ]
+b:  [[ 1.   3.2]
+ [ 5.4  7.6]
+ [ 9.8 12. ]]
+c:  [1 2 3 4 5 6 7 8 9 0]
+a.size():  6
+b.size():  6
+c.size():  10
+a.itemsize:  8
+b.itemsize:  8
+c.itemsize:  4
+```
+
+
+## 2.9. NumPy `dtype()` - tipo de dados armazenado
+
+```ipynb
+a = np.arange(1,12,4)
+b = np.linspace(1,12,6)
+print('a: ', a)
+print('b: ', b)
+print('dtype(a): ', a.dtype)
+print('dtype(b): ', b.dtype)
+```
+
+```txt
+a:  [1 5 9]
+b:  [ 1.   3.2  5.4  7.6  9.8 12. ]
+dtype(a):  int32
+dtype(b):  float64
+```
+
+
+## 2.10. NumPy vetor multi-dimensional importância do colchete [] e parenteses ()
+
+```ipynb
+a = np.array([(1,3.2,5.4),(7.6, 9.8, 12)])
+print('a: ', a)
+print('a.shape: ', a.shape)
+print('a.size:', a.size)
+print('a.dtype', a.dtype)
+```
+
+```txt
+a:  [[ 1.   3.2  5.4]
+ [ 7.6  9.8 12. ]]
+a.shape:  (2, 3)
+a.size: 6
+a.dtype float64
+```
+
+
+## 2.12. NumPy operação com todos elementos do array
+
+* Comparação de cada um dos elementos para saber se é menor do que 4
+* Multiplicar cada um dos elementos por 3
+
+```ipynb
+a = np.array([(1,3.2,5.4),(7.6, 9.8, 12)])
+print('a: ', a)
+print('a < 4: # compara (<) cada um dos elementos com 4\n', a < 4)
+print('\na * 3:\n', a * 3 )
+a *= 3
+print('\na:\n', a)
+```
+
+```ipynb
+a:  [[ 1.   3.2  5.4]
+ [ 7.6  9.8 12. ]]
+a < 4: # compara (<) cada um dos elementos com 4
+ [[ True  True False]
+ [False False False]]
+
+a * 3:
+ [[ 3.   9.6 16.2]
+ [22.8 29.4 36. ]]
+
+a:
+ [[ 3.   9.6 16.2]
+ [22.8 29.4 36. ]]
+```
+
+
+## 2.13. NumPy funções `zeros()` e `ones()`
+
+```ipynb
+a = np.zeros((3,4))
+print('a:\n', a)
+print('a.dtype:', a.dtype)
+b = np.ones((2,3))
+print('b:\n', b)
+print('b.dtype:', b.dtype)
+c = np.ones(10)
+print('c:\n', c)
+```
+
+```txt
+a:
+ [[0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]]
+a.dtype: float64
+b:
+ [[1. 1. 1.]
+ [1. 1. 1.]]
+b.dtype: float64
+c:
+ [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+```
+
+
+## 2.14. NumPy  `dtype()`, `random`, `randint`, `set_printoptions`, `min()`, `max()`, `mean()` `std()`, `var()`, parâmetro `axis=n`
+
+```ipynb
+a = np.array([2,3,4], dtype=np.int16)
+print('a:\n', a)
+print('a.dtype:', a.dtype)
+print('a.itemsize:', a.itemsize) # tamanho ocupado em bytes
+b = np.random.random((2,3))
+print('b:\n', b)
+print('b.dtype:', b.dtype)
+print('b.itemsize:', b.itemsize)
+c = np.random.randint(0,10,5) # de 0 to 10 (inclusivo) com 5 elementos
+print('c:\n', c)
+print('c.dtype:', c.dtype)
+print('c.itemsize:', c.itemsize)
+print('c.sum: ', c.sum())
+print('c.min: ', c.min(), '; c.max:', c.max(), ' - mean:', c.mean(), ' - std:', c.std(), ' - var:', c.var())
+print('agora operações com eixo axis=n')
+print('b:\n', b)
+print('\nb.sum(axis=0)', b.sum(axis=0))
+```
+
+```txt
+a:
+ [2 3 4]
+a.dtype: int16
+a.itemsize: 2
+b:
+ [[0.9595906  0.1235567  0.90017602]
+ [0.31400116 0.56075755 0.32200907]]
+b.dtype: float64
+b.itemsize: 8
+c:
+ [4 1 5 7 8]
+c.dtype: int32
+c.itemsize: 4
+c.sum:  25
+c.min:  1 ; c.max: 8  - mean: 5.0  - std: 2.449489742783178  - var: 6.0
+agora operações com eixo axis=n
+b:
+ [[0.9595906  0.1235567  0.90017602]
+ [0.31400116 0.56075755 0.32200907]]
+
+b.sum(axis=0) [1.27359176 0.68431425 1.2221851 ]
+```
+
+
+
+
 
 # Referências
 
 * [Vídeo **muito bom** Python: NumPy Numerical Python Arrays Tutorial](https://www.youtube.com/watch?v=8Mpc9ukltVA&list=PLORrDfZD1hkFD3HcJVoBsQoXf2BmnUt65)
 * [Vídeo Python NumPy Tutorial - NumPy Array - Python Tutorial For Beginners - Python Training - Edureka](https://www.youtube.com/watch?v=8JfDAm9y_7s)
 * http://www.numpy.org/
-* https://www.datacamp.com/community/tutorials/python-numpy-tutorial
 * https://docs.scipy.org/doc/numpy/user/quickstart.html
+* https://www.datacamp.com/community/tutorials/python-numpy-tutorial

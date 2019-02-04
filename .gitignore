@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# .\src\py\01-JogoPegaBolinhaLancada
+base-weuler-*
