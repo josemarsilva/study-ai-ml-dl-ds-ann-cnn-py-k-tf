@@ -14,7 +14,6 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [Manipulando **DataSet** em **Python**](./md/README_PythonDataSetManipulation.md)
 * [Pacote/biblioteca **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
 * [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
-* [**Operações** com **elementos de Matriz** em **Python**](./md/README_PythonMatrizes.md)
 * [Visualizando os dados com **Matplotlib**](./md/README_PythonMatplotlib.md)
 * [Pacote/biblioteca **pygame** ](./md/README_PythonPygame.md) e [Rede Neural aprendizado supervisionado para jogar Ping Pong](./md/README_PythonPygameRedeNeuralJogoPegaBolinhaLancada.md)
 * [Regressão Linear com NumPy, Matplotlib, Tensorflow](./md/README_PythonRegressaoLinearNumPyMatplotlibTensorFlow.md)

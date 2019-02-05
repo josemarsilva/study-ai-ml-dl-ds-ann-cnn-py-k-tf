@@ -133,7 +133,7 @@ np.arange(1,100000001).sum()
 ```
 
 
-## 2.4. Fatiamento (Slice) em NumPy
+## 2.5. Fatiamento (Slice) em NumPy
 
 ```ipynb
 lista = [10, 20, 30, 40]
@@ -159,7 +159,7 @@ NumPy - Fatiamento - o terceiro termo é o salto [10 30]
 ```
 
 
-## 2.5. NumPy vs Lista - Cópia do conteúdo vs cópia do Label (endereço de memória)
+## 2.6. NumPy vs Lista - Cópia do conteúdo vs cópia do Label (endereço de memória)
 * Usando Listas a atribuição de uma nova lista consiste na criação de um ponteiro para o mesmo elemento
 * Usando NumPy Array a atribuição de um novo array implica também na criação de um ponteiro para o mesmo elemento
 * Usando NumPy Array, para se tirar uma cópia do dados, de forma que se eles forem alterados não impactar o objeto original, isto deve ser feito com copy
@@ -200,7 +200,7 @@ a4:
 ```
 
 
-## 2.6. NumPy `linspace` Espacamento linear entre dois elementos
+## 2.7. NumPy `linspace` Espacamento linear entre dois elementos
 * A funçao `linespace()` gera automanticamente um espaçamento linear entre dois números
 
 ```ipynb
@@ -222,7 +222,7 @@ c:  [ 1.   3.2  5.4  7.6  9.8 12. ]
 d:  [1.  1.5 2. ]
 ```
 
-## 2.7. NumPy `reshape()`, `shape` e `ndim()` - remodelando as dimensões de array
+## 2.8. NumPy `reshape()`, `shape` e `ndim()` - remodelando as dimensões de array
 * Como os dados são armazenados de forma contíguas, as transformações do tipo um vetor n dimensões ser convertido em uma matriz de n/2 x m
 
 ```ipynb
@@ -255,7 +255,7 @@ c.ndim:  2
 ```
 
 
-## 2.8. NumPy `size()` - número total de elementos do array e `itemsize`
+## 2.9. NumPy `size()` - número total de elementos do array e `itemsize`
 * a função `size()` retorna o número de elementos de um array
 * a função `itemsize()` retorna o tamanho em bytes de __cada__ elemento do array. Em um array de elementos do tipo float64 o `itemsize` 8 (=64/8), enquanto o tipo complex32 tem `itemsize` 4 (=32/8). Isto é equivalente a `ndarray.dtype.itemsize`
 
@@ -289,7 +289,7 @@ c.itemsize:  4
 ```
 
 
-## 2.9. NumPy `dtype()` - tipo de dados armazenado
+## 2.10. NumPy `dtype()` - tipo de dados armazenado
 
 ```ipynb
 a = np.arange(1,12,4)
@@ -308,7 +308,7 @@ dtype(b):  float64
 ```
 
 
-## 2.10. NumPy vetor multi-dimensional importância do colchete [] e parenteses ()
+## 2.11. NumPy vetor multi-dimensional importância do colchete [] e parenteses ()
 
 ```ipynb
 a = np.array([(1,3.2,5.4),(7.6, 9.8, 12)])
@@ -432,6 +432,55 @@ b:
 b.sum(axis=0) [1.27359176 0.68431425 1.2221851 ]
 ```
 
+## 2.15. Operações com matrizes
+* Observe com é simples fazer operações com matrizes
+* Operação de Dividir os elementos de uma matriz por outra é simplesmente m2 / m1
+* Operação de Arredondamento dos elementos de uma matriz
+* Operação de Multiplicação dos elementos de uma matriz
+* Operação de Soma dos elementos de uma matriz
+* Operação de Subtraão dos elementos de uma matriz
+* Operação de Exponenciação dos elementos de uma matriz
+
+```ipynb
+import numpy as np
+m1 = np.array([[1,2,3],[4,5,6]])
+m2 = np.array([[7,8,9],[10,11,12]])
+print('m1:\n', m1)
+print('m2:\n', m2)
+print('m2/m1:\n', m2/m1) # para cada elemento (i,j) de m2 aplicar a divisão pelo elemento (i,j) de m1
+print('np.matrix.round(m2/m1):\n', np.matrix.round(m2/m1)) # arredondando cada um dos elementos
+print('10 * m2:\n', 10 * m2)
+print('m1 + 5:\n', m1 + 5)
+print('m2 - 1:\n', m2 - 1)
+print('m1 ** 2:\n', m1 ** 2)
+```
+
+```txt
+m1:
+ [[1 2 3]
+ [4 5 6]]
+m2:
+ [[ 7  8  9]
+ [10 11 12]]
+m2/m1:
+ [[7.  4.  3. ]
+ [2.5 2.2 2. ]]
+np.matrix.round(m2/m1):
+ [[7. 4. 3.]
+ [2. 2. 2.]]
+10 * m2:
+ [[ 70  80  90]
+ [100 110 120]]
+m1 + 5:
+ [[ 6  7  8]
+ [ 9 10 11]]
+m2 - 1:
+ [[ 6  7  8]
+ [ 9 10 11]]
+m1 ** 2:
+ [[ 1  4  9]
+ [16 25 36]]
+```
 
 
 
