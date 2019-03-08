@@ -36,7 +36,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 
 * Vídeo [Inteligência Artificial: CNN e CUDA, uma breve introdução](https://www.youtube.com/watch?v=j8E_i6-qtbA&index=14&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: PT-BR Bom histórico sobre Rede Neural Convolucinal, Lenet: reconhecimento de caracter, TensorFlow, Imagenet
-
+* Vídeo [MIT Deep Learning Basics: Introduction and Overview - Excelente visão geral e histórica sobre DL](https://www.youtube.com/watch?v=O5xeyoRL95U&t=436s)
 
 ### Conceitos ###
 * Vídeo [Inteligência Artificial, Machine Learning e Deep Learning (Exemplos e Diferenças)](https://www.youtube.com/watch?v=5UYpSE3dQSQ&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Introdutório dos conceitos, mostra a diferença entre AI vs ML vs DL, para não técnicos de forma bastante simples e efetiva

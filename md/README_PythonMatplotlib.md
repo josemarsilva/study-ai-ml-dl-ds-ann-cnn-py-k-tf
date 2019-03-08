@@ -252,6 +252,15 @@ plt.show()
 ![matplotlib-08.png](matplotlib-08.png)
 
 
+## 2.12. Line Style
+
+```ipynb
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+```
+
 
 
 # Referências
