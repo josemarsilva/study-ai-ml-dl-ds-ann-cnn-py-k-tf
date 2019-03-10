@@ -7,6 +7,13 @@ NumPy é um pacote de computação científica com Python. É muito poderoso, vo
 pip install numpy
 ```
 
+* ou 
+
+```cmd
+pip3 install numpy
+```
+
+---
 ## 2. Guia de Uso
 
 * Jupyter-Notebook deste exercício disponível [PythonNumPy.ipynb](../src/ipynb/04-PythonNumPy/PythonNumPy.ipynb)
@@ -18,6 +25,7 @@ Para utilizar você deve importar a biblioteca numpy
 import numpy
 ```
 
+---
 ## 2.2. Matrizes n-dimensional
 * Criação, inicialização
 * Acessando elementos (n, m)
@@ -85,6 +93,7 @@ array - a1.argmin() 0  - atenção que o retorno é o índice do array
 ```
 
 
+---
 ## 2.3. NumPy Array vs Listas do Python
 * NumPy Arrays são mais compactos - consomem menos memória
 * NumPy Arrays são mais eficientes - acessos leituras e escritas são muito mais rápidos
@@ -118,6 +127,7 @@ lista = [1, 2, 3, 'josemar']
 # abaixo digite "lista." em seguida <TAB>
 ```
 
+---
 ## 2.4. Eficiência do NumPy
 * O NumPy é muito mais eficiente nas interaçoes: Soma de elementos
 
@@ -133,6 +143,7 @@ np.arange(1,100000001).sum()
 ```
 
 
+---
 ## 2.5. Fatiamento (Slice) em NumPy
 
 ```ipynb
@@ -159,6 +170,7 @@ NumPy - Fatiamento - o terceiro termo é o salto [10 30]
 ```
 
 
+---
 ## 2.6. NumPy vs Lista - Cópia do conteúdo vs cópia do Label (endereço de memória)
 * Usando Listas a atribuição de uma nova lista consiste na criação de um ponteiro para o mesmo elemento
 * Usando NumPy Array a atribuição de um novo array implica também na criação de um ponteiro para o mesmo elemento
@@ -200,6 +212,7 @@ a4:
 ```
 
 
+---
 ## 2.7. NumPy `linspace` Espacamento linear entre dois elementos
 * A funçao `linespace()` gera automanticamente um espaçamento linear entre dois números
 
@@ -222,6 +235,7 @@ c:  [ 1.   3.2  5.4  7.6  9.8 12. ]
 d:  [1.  1.5 2. ]
 ```
 
+---
 ## 2.8. NumPy `reshape()`, `shape` e `ndim()` - remodelando as dimensões de array
 * Como os dados são armazenados de forma contíguas, as transformações do tipo um vetor n dimensões ser convertido em uma matriz de n/2 x m
 
@@ -255,6 +269,7 @@ c.ndim:  2
 ```
 
 
+---
 ## 2.9. NumPy `size()` - número total de elementos do array e `itemsize`
 * a função `size()` retorna o número de elementos de um array
 * a função `itemsize()` retorna o tamanho em bytes de __cada__ elemento do array. Em um array de elementos do tipo float64 o `itemsize` 8 (=64/8), enquanto o tipo complex32 tem `itemsize` 4 (=32/8). Isto é equivalente a `ndarray.dtype.itemsize`
@@ -289,6 +304,7 @@ c.itemsize:  4
 ```
 
 
+---
 ## 2.10. NumPy `dtype()` - tipo de dados armazenado
 
 ```ipynb
@@ -308,6 +324,7 @@ dtype(b):  float64
 ```
 
 
+---
 ## 2.11. NumPy vetor multi-dimensional importância do colchete [] e parenteses ()
 
 ```ipynb
@@ -327,6 +344,7 @@ a.dtype float64
 ```
 
 
+---
 ## 2.12. NumPy operação com todos elementos do array
 
 * Comparação de cada um dos elementos para saber se é menor do que 4
@@ -358,6 +376,7 @@ a:
 ```
 
 
+---
 ## 2.13. NumPy funções `zeros()` e `ones()`
 
 ```ipynb
@@ -386,6 +405,7 @@ c:
 ```
 
 
+---
 ## 2.14. NumPy  `dtype()`, `random`, `randint`, `set_printoptions`, `min()`, `max()`, `mean()` `std()`, `var()`, parâmetro `axis=n`
 
 ```ipynb
@@ -432,6 +452,7 @@ b:
 b.sum(axis=0) [1.27359176 0.68431425 1.2221851 ]
 ```
 
+---
 ## 2.15. Operações com matrizes
 * Observe com é simples fazer operações com matrizes
 * Operação de Dividir os elementos de uma matriz por outra é simplesmente m2 / m1
@@ -482,6 +503,106 @@ m1 ** 2:
  [16 25 36]]
 ```
 
+---
+## 2.16. Manipulação de elementos em NumPy array
+* Lembre-se que as alterações de elementos em arrays retornam outro array
+* o método `insert` adiciona um elemento a um array
+
+```ipynb
+import numpy as np
+array = np.array([1, 2, 3])
+print('array: ', array)
+
+array:  [1 2 3]
+np.insert(array,1,10) # a partir da posição 1, o elemento 10. Isto faz impressao do resultado na console ...
+array([ 1, 10,  2,  3])
+
+print('array: ', array) # ... mas array continua com o conteúdo inicial
+array:  [1 2 3]
+```
+
+---
+## 2.18. Manipulação de elementos em NumPy array multi-dimensional e dimensoes
+* Avaliando o numero de dimensoes de um array multi-dimensional com `ndim`
+* Somar os elementos de um eixo ( vertical ou horizontal ) com `sum()`
+* Inserir elemento em um array-multi-dimensional com `insert()`
+* Anexar elemento ao final de um array com `append()`
+* Deletando elementos do array com `delete()` pode-se escolher o eixo
+* Deletando elementos do array com operacoes de fatiamento `[::]`
+* Repetir elementos em um array com `repeat()`
+
+```ipynb
+a = np.array([[1,2],[3,4]])
+print('a:\n', a , '\n')
+
+print('núm. dimensoes:', a.ndim)
+print('Soma do eixo X (vertical): ', a.sum(axis=0)) # soma dos elementos do eixo X
+print('Soma do eixo Y (horizontal):', a.sum(axis=1)) # soma dos elementos do eixo Y
+
+np.insert(a, 1, 5, axis = 1) # axis = 1 
+array([[1, 5, 2],
+       [3, 5, 4]])
+
+np.insert(a, 0, 5, axis = 0) # axis = 0 
+array([[5, 5],
+       [1, 2],
+       [3, 4]])
+```
+
+```ipynb
+b = np.array([[1,2], [3,4]])
+print('b:\n', b)
+np.append(b,[[5,6]]) # sem dizer qual o eixo, vai virar um array uni-dimensional
+np.append(b,[[5,6]], axis=0) # dizendo o eixo volta a ser uma matriz
+
+b:
+ [[1 2]
+ [3 4]]
+
+array([[1, 2],
+       [3, 4],
+       [5, 6]])
+```
+
+```ipynb
+b = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+print('b:\n', b)
+b_ = np.delete(b,np.s_[::2],0)
+print('b_(depois do delete):\n', b_)
+
+
+b:
+ [[ 1  2  3]
+ [ 4  5  6]
+ [ 7  8  9]
+ [10 11 12]]
+b_(depois do delete):
+ [[ 4  5  6]
+ [10 11 12]]
+```
+
+```ipynb
+import numpy as np
+a = np.array([[1,2],[3,4]])
+print('a:\n', a)
+np.repeat(a,2) # repetir 2 vezes cada elemento
+print('\nrepeat(array,n-repeat): repetir 2 vezes cada elemento do eixo 0 \n', np.repeat(a,2,axis=0))
+print('\nrepeat(array,n-repeat): repetir 2 vezes cada elemento do eixo 1 \n', np.repeat(a,2,axis=1))
+
+a:
+ [[1 2]
+ [3 4]]
+
+repeat(array,n-repeat): repetir 2 vezes cada elemento do eixo 0 
+ [[1 2]
+ [1 2]
+ [3 4]
+ [3 4]]
+
+repeat(array,n-repeat): repetir 2 vezes cada elemento do eixo 1 
+ [[1 1 2 2]
+ [3 3 4 4]]
+```
 
 
 

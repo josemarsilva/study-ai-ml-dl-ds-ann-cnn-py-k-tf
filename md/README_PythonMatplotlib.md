@@ -3,7 +3,7 @@
 ## 1. Introdução ##
 O objetivo deste documento é apresentar a biblioteca de visualização gráfica do Python **Matplotlib**. O **Matplotlib** é uma biblioteca Python para gráfico.
 
-
+---
 ## 2. Guia de Uso
 
 * Jupyter-Notebook deste exercício disponível [PythonMatplotlib.ipynb](../src/ipynb/05-PythonMatplotlib/PythonMatplotlib.ipynb)
@@ -15,6 +15,7 @@ O objetivo deste documento é apresentar a biblioteca de visualização gráfica
 pip3 install matplotlib
 ```
 
+---
 ## 2.2. Matplotlib vs Jupyter-Notebook
 * Para utilizar o **Matplotlib** no **Jupyter-Notebook** é necessário a diretiva `%matplotlib inline`
 
@@ -22,6 +23,7 @@ pip3 install matplotlib
 %matplotlib inline
 ```
 
+---
 ## 2.3. Mostrando a primeira Lista de valores Python com Matplotlib no Jupyter-Notebook
 ```ipynb
 %matplotlib inline
@@ -33,6 +35,7 @@ plt.show()
 ![matplotlib-01.png](matplotlib-01.png)
 
 
+---
 ## 2.4. Títulos de eixo - xlabel(), ylabel(), title()
 * xlabel(), ylabel(), title()
 
@@ -51,6 +54,7 @@ plt.show()
 ![matplotlib-02.png](matplotlib-02.png)
 
 
+---
 ## 2.5. Mais de uma linha no gráfico 2D com lables
 * `matplotlib.plot( .., label='' )`
 
@@ -73,6 +77,7 @@ plt.show()
 ![matplotlib-03.png](matplotlib-03.png)
 
 
+---
 ## 2.6. Bar Chart e Histogram
 * matplotlib.bar(), matplotlib.hist()
 
@@ -126,6 +131,7 @@ plt.show()
 ![matplotlib-04c.png](matplotlib-04c.png)
 
 
+---
 ## 2.7. Scatter Plots
 * `matplotlib.scatter()`
 * Os [markers](https://matplotlib.org/api/markers_api.html?highlight=markers#module-matplotlib.markers) definem a imagem do objeto que será mostrado no gráfico
@@ -148,6 +154,7 @@ plt.show()
 ![matplotlib-05.png](matplotlib-05.png)
 
 
+---
 ## 2.8. Stack Plots (gráficos empilhados)
 * `matplotlib.stackplot()`
 * Você não poderá ter rótulos de legendas para stack plot, para contornar este problema você pode fazer um plot dentro do outro
@@ -178,7 +185,7 @@ plt.show()
 
 ![matplotlib-06.png](matplotlib-06.png)
 
-
+---
 ### 2.9. Pie Chart
 * pie(), colors, startangle, shadow, explode
 
@@ -208,6 +215,7 @@ plt.show()
 ![matplotlib-07.png](matplotlib-07.png)
 
 
+---
 ## 2.10. Carregando dados do gráfico de arquivo 
 * `import csv`, `with open('...','r') as ...`
 * `numpy.loadtext(.., delimiter=',', unpack)` 
@@ -234,6 +242,8 @@ plt.legend()
 plt.show()
 ```
 
+---
+## 2.11. Plotando gráfico de arquivo 
 ```ipynb
 import matplotlib.pyplot as plt
 import numpy as np
@@ -252,6 +262,7 @@ plt.show()
 ![matplotlib-08.png](matplotlib-08.png)
 
 
+---
 ## 2.12. Line Style
 
 ```ipynb
@@ -261,6 +272,45 @@ import matplotlib.pyplot as plt
 
 ```
 
+---
+# 3. Exercícios
+
+## 3.1. Gráfico, 2 linhas, cores, marcador, lable "legenda" das linhas
+
+```ipynb
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+salarios_gov_dilma = np.array([ 100, 200, 350, 300 ])
+salarios_gov_bolsonaro = np.array ([ 50, 300, 400, 450])
+
+# c = color; ls = estilo da linha; marker = marcador
+plt.plot( salarios_gov_dilma, c = 'red', ls = '--', marker = 's', ms = 8, label='Salários Gov. Dilma')
+plt.plot( salarios_gov_bolsonaro, c = 'blue', ls = '--', marker = 's', ms = 8, label='Salários Gov. Dilma')
+plt.legend(loc = 'upper left') # este faz aparecer a legenda
+plt.show()
+```
+
+![matplotlib-09.png](matplotlib-09.png)
+
+
+---
+## 3.2. Gráfico, 3 linhas, cores, marcador diferentes, lable "legenda" das linhas
+
+```ipynb
+# adicionando nova linha
+salarios_gov_lula = np.array ([ 200, 150, 300, 250])
+
+# alterando os marcadores
+plt.plot( salarios_gov_dilma, c = 'red', ls = '--', marker = 's', ms = 8, label='Salários Gov. Dilma')
+plt.plot( salarios_gov_bolsonaro, c = 'blue', ls = '--', marker = '^', ms = 8, label='Salários Gov. Dilma')
+plt.plot( salarios_gov_lula, c = 'blue', ls = '--', marker = 'o', ms = 8, label='Salários Gov. Lula')
+plt.legend(loc = 'upper left') # este faz aparecer a legenda
+plt.show()
+```
+
+![matplotlib-10.png](matplotlib-10.png)
 
 
 # Referências
