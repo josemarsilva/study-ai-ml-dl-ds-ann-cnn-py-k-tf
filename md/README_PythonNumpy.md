@@ -525,11 +525,6 @@ array:  [1 2 3]
 ## 2.18. Manipulação de elementos em NumPy array multi-dimensional e dimensoes
 * Avaliando o numero de dimensoes de um array multi-dimensional com `ndim`
 * Somar os elementos de um eixo ( vertical ou horizontal ) com `sum()`
-* Inserir elemento em um array-multi-dimensional com `insert()`
-* Anexar elemento ao final de um array com `append()`
-* Deletando elementos do array com `delete()` pode-se escolher o eixo
-* Deletando elementos do array com operacoes de fatiamento `[::]`
-* Repetir elementos em um array com `repeat()`
 
 ```ipynb
 a = np.array([[1,2],[3,4]])
@@ -538,7 +533,11 @@ print('a:\n', a , '\n')
 print('núm. dimensoes:', a.ndim)
 print('Soma do eixo X (vertical): ', a.sum(axis=0)) # soma dos elementos do eixo X
 print('Soma do eixo Y (horizontal):', a.sum(axis=1)) # soma dos elementos do eixo Y
+```
 
+* Inserir elemento em um array-multi-dimensional com `insert()`
+
+```ipynb
 np.insert(a, 1, 5, axis = 1) # axis = 1 
 array([[1, 5, 2],
        [3, 5, 4]])
@@ -548,6 +547,8 @@ array([[5, 5],
        [1, 2],
        [3, 4]])
 ```
+
+* Anexar elemento ao final de um array com `append()`
 
 ```ipynb
 b = np.array([[1,2], [3,4]])
@@ -563,6 +564,9 @@ array([[1, 2],
        [3, 4],
        [5, 6]])
 ```
+
+* Deletando elementos do array com `delete()` pode-se escolher o eixo
+* Deletando elementos do array com operacoes de fatiamento `[::]`
 
 ```ipynb
 b = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
@@ -580,6 +584,8 @@ b_(depois do delete):
  [[ 4  5  6]
  [10 11 12]]
 ```
+
+* Repetir elementos em um array com `repeat()`
 
 ```ipynb
 import numpy as np
@@ -603,6 +609,127 @@ repeat(array,n-repeat): repetir 2 vezes cada elemento do eixo 1
  [[1 1 2 2]
  [3 3 4 4]]
 ```
+
+* Repetir um array ao longo de um eixo com `tile()`
+
+```ipynb
+import numpy as np
+a = np.array([1,2,3])
+print('np.tile(array, 2):\n', np.tile(a, 2))  # parâmetros: array, no. de repetições em cada eixo
+print('np.tile(array, 3):\n', np.tile(a, 3))  # parâmetros: array, no. de repetições em cada eixo
+
+tile(array, 2):
+ [1 2 3 1 2 3]
+tile(array, 3):
+ [1 2 3 1 2 3 1 2 3]
+```
+
+```ipynb
+a = np.array([[1,2,3],[4,5,6]])
+print('a:\n', a)
+
+print('\nsplit(array, 2 pedacos, eixo 0 ):\n', np.array_split(a,2,axis=0)) # parâmetros: array, no. de pedaços a dividir, no. do eixo (0=vertical; 1=horizontal)
+print('\nsplit(array, 2 pedacos, eixo 1 ):\n', np.array_split(a,2,axis=1)) # parâmetros: array, no. de pedaços a dividir, no. do eixo (0=vertical; 1=horizontal)
+
+b = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+arrays = np.array_split(b, 2, axis=0)
+for array in arrays:
+    print(array)
+```
+
+```console
+a:
+ [[1 2 3]
+ [4 5 6]]
+
+split(array, 2 pedacos, eixo 0 ):
+ [array([[1, 2, 3]]), array([[4, 5, 6]])]
+
+split(array, 2 pedacos, eixo 1 ):
+ [array([[1, 2],
+       [4, 5]]), array([[3],
+       [6]])]
+[[1 2 3]
+ [4 5 6]]
+[[ 7  8  9]
+ [10 11 12]]
+```
+
+---
+## 2.19. Matrizes de zeros e uns
+
+* Array de zeros com 4 posições `zeros()`
+
+```ipynb
+import numpy as np
+np.zeros(4)
+
+array([0., 0., 0., 0.])
+```
+
+* Matriz 2 x 2 com zeros utilizando
+
+```ipynb
+np.zeros((2,2))
+array([[0., 0.],
+       [0., 0.]])
+```
+
+* Matriz 3 x 2 com uns
+
+```ipynb
+np.ones((3,2))
+array([[1., 1.],
+       [1., 1.],
+       [1., 1.]])
+```
+
+* Matriz identididade é uma matriz quadrada, o número de linhas é igual ao número de colunas, todos os elementos da diagonal principal é igual 1 (um) e os demais elementos iguais a 0 (zero)
+
+```ipynb
+import numpy as np
+a = np.eye(2)
+b = np.eye(5)
+
+print('a:\n', a)
+print('b:\n', b)
+
+a:
+ [[1. 0.]
+ [0. 1.]]
+b:
+ [[1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 1.]]
+```
+
+---
+## 2.20. Obtendo elementos do array através de indexação booleana
+
+```ipynb
+import numpy as np
+a = np.array([[1,2],[3,4],[5,6]])
+print('a:\n', a) 
+print('a>3:\n', a[a>3]) # todos os elementos maiores que 3
+idx = (a>2) # obtendo todos os indices dos elementos que são maiores que 2
+print('idx:\n', idx)
+```
+
+```console
+a:
+ [[1 2]
+ [3 4]
+ [5 6]]
+a>3:
+ [4 5 6]
+idx:
+ [[False False]
+ [ True  True]
+ [ True  True]]
+```
+
 
 
 
