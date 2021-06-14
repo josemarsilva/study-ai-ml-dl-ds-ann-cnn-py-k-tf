@@ -11,8 +11,9 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
 * [Conceitos, definições , termos e glossário _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
 * [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md)
-* Programaçao Python
+* Programação Python
   * [Tutorial Python com Jupyter Notebook](./md/README_Python.md)
+  * [Guia de estudo básico da linguagem Python 3](https://github.com/josemarsilva/study-python#341-b%C3%A1sico-da-linguagem-python)
   * [Manipulando **DataSet** em **Python**](./md/README_PythonDataSetManipulation.md)
   * [Pacote/biblioteca **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
   * [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
