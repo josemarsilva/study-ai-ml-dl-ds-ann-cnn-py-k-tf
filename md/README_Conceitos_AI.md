@@ -21,10 +21,20 @@ Neste capítulo separei referências para conceitos, definições, terminologias
     * [Escalas de atributos](#escalas-de-atributos)
   * [Aprendizado](#23-aprendizado)
     * [Tarefas de aprendizado](#tipos-de-aprendizado)
-    * Tipos de aprendizado
-      * Aprendizado Indutivo, Aprendizado Supervisionado, Classificação, Regressão, Aprendizado Não-Supervisionado, Sumarização, Associação, Agrupamento, Detecção de desvios, Padrões sequenciais
-    * 
-
+    * [Tipos de aprendizado](#tipos-de-aprendizado)
+      * [Preditivas vs Descritivas](#preditivas-vs-descritivas)
+      * [Dedutivo vs Indutivo](#dedutivo-vs-indutivo)
+      * [Classificação, Regressão, Sumarização, Agrupamento, Detecção de Desvios e Padrões sequenciais](#classifica%C3%A7%C3%A3o-regress%C3%A3o-sumariza%C3%A7%C3%A3o-agrupamento-detec%C3%A7%C3%A3o-de-desvios-e-padr%C3%B5es-sequenciais)
+    * [Processo de aprendizado](#24-processo-de-aprendizado)
+      * [Supervisionado](#supervisionado)
+      * [Não-supervisionado](#n%C3%A3o-supervisionado)
+      * [Semi-supervisionado](#semi-supervisionado)
+      * [Por reforço](#por-reforço)
+    * [Técnicas de aprendizado de máquina](#25-t%C3%A9cnicas-de-aprendizado-de-m%C3%A1quina)
+      * Redes Neurais, Árvore de Decisão, KNN, K-Means, Redes Bayesianas, Máquina de vetor de suporte (SVMs), Clusterização, Regressão Linear (Simples, Múltipla)
+    * [Inteligência artificial ou humana?](#26-intelig%C3%AAncia-artificial-ou-humana)
+      * [Teste de Turing](#teste-de-turing)
+* [Referências](#referências)
 
 ## 2. Conceitos
 
@@ -113,21 +123,21 @@ PS: Não é uma subdivisão rígida, mas didatica:
 
 ## 2.4. Processo de aprendizado
 
-### Processo de aprendizado supervisionado
+### Supervisionado
 No aprendizado supervisionado, o programa é __treinado__ sobre um conjunto de dados pré-definidos. Baseado no treinamento com dados pré-definidos o programa pode tomar decisão para novos dados. Ex: análise de sensibilidade de tweets (positivo ou negativo). O objetivo é a partir do passado, prever o que se segue. 
 A **classificação** é uma subcategoria do aprendizado supervisionado, cujo processo consiste em atribuir um rótulo para uma nova amostra.
 A **regressão** é uma subcategoria do aprendizado supervisionado, quando o valor tem um espectro contínuo podemos utilizar regressão.
 
 
-### Processo de aprendizado não-supervisionado
+### Não-supervisionado
 Mesmo com exemplos não rotulados é possível encontrar __padrões__ os padrões existentes dados. Isto é muito usado em uma abordagem chamada __DataMinig__. É possível fazer organização de padrões consistentes nos dados, ou __clustes__. O objetivo é extrair informações relevantes de dados __não rotulados__.
 
 
-### Processo de aprendizado semi-supervisionado
+### Semi-supervisionado
 Utiliza dados rotulados e não rotulados no treinamento. Normalmente uma pequena quantidade de dados rotulado com uma grande quantidade de dados não rotulados (que são obtidos com menos esforço)
 
 
-### Processo de aprendizado por reforço
+### Por reforço
 O algorítmo aprende por tentativa e erro. 
 
 
@@ -140,10 +150,10 @@ Existe várias técnicas de aprendizado de máquina:
 * K-Means
 * Redes Bayesianas
 * Máquina de vetor de suporte (SVMs)
-* Regressão Linear
+* Clusterização
+* Regressão Linear (Simples, Múltipla)
 
-Ps: Não existe a **melhor** técnica e sim a mais adequada levando em consideração os dados e tempo de espera
-
+Ps: Não existe a **melhor** técnica e sim a mais adequada levando em consideração os dados e tempo de espera.
 
 ### Clusterização
 Processo de agrupar objetos em classes de objetos similares. Cluster é uma coleção de objeto que é similar a outros de acordo com um critério de similiradade.
