@@ -1,22 +1,21 @@
-# Conceitos, definições, e glossário de _AI_ - Inteligência Artificial
+`README_Conceitos_AI.md`
 
 ## 1. Introdução ##
 
-Neste capítulo separei referências para conceitos, definições e glossário
+Neste capítulo separei referências para conceitos, definições, terminologias e glossário
 
 
 ## 2. Conceitos
 
-
 ### Inteligência Computacional
-Inteligência Computacional é uma área bem vasta e bem estabelecida. O uso prático: Netflix, Google, Amazon, WhatsApp corretor ortográfico(processamento de linguagem natural).
+Inteligência Computacional é uma área bem vasta e bem estabelecida. É um termo preferido pelos profissionais da ciência de computação para  substituir "Inteligência Artificial" porque remete a computação. IEEE considera as técnicas de: Redes Neurais, Computação Evolucionária e Lógica Nebulosa (Fuzzy). O uso prático: Netflix, Google, Amazon, WhatsApp corretor ortográfico (processamento de linguagem natural). 
 
 
-### _AI_ Artificial Intelligence (Inteligência Artificial)
-A teoria e desenvolvimento de sistemas computacionais capazes de executarem tarefas que normalmente requeriam a inteligêcia humana. Surgiu logo após a 2a guerra mundial
+### _AI_ Artificial Intelligence (Inteligência Artificial) 
+A teoria e desenvolvimento de sistemas computacionais capazes de executarem tarefas que normalmente requeriam a inteligêcia humana. Surgiu logo após a 2a guerra mundial. Está ligado ao desenvolvimento de sistemas que simulem a capacidade humana de resolver probleas.
 
 
-### _ML_ Machine Learning
+### _ML _ Machine Learning
 O campo da ciência que usa técnicas estatísticas para dar aos sistemas computacionais a habilidade de "ler", isto é que progressivamente melhore o desempenho da execução de uma tarefa específica com dados, sem terem sido explicitamente programados para tal.
 
 
@@ -33,6 +32,8 @@ O [Teste de Turing](https://pt.wikipedia.org/wiki/Teste_de_Turing) testa a capac
 ### DataSet ou conjunto de Dados
 Em _AI_, um programa aprende a partir de uma experiências, que pode ser provida por um conjunto de dados. Exemplo: dados de pacientes de um hospital, identificador, nome, idade, peso, temperatura, presença de manchas, etc.  O dado também é chamado de objeto, exemplo, amostra, registro ou padrão.
 
+### Data Mining
+Extrair conhecimento de base de dados usando métodos de aprendizado de máquina.
 
 ### Dado imperfeito ou ruído
 Quando em um conjunto de treinamento, pelo menos um dos atribudos não está disponível ou é inválido no domínio.
@@ -56,14 +57,19 @@ Escala de atribuitos define operações que podem ser aplicadas aos atributos, q
 
 
 ### Tarefas de aprendizado
+
+!tipos-de-aprendizado.png!
+
 * **Preditivas**: Encontrar uma função, modelo ou hipótese que pode ser utilizada para prever um rótulo ou valor. Ex: prever o valor de um imóvel ou um rótulo de doente/saudável para um paciente.
 * **Descritivas**: Explorar ou descrever um conjunto de dados, pois não possuem saída associada.
 
 
 ### Tipos de aprendizado
-!tipos-de-aprendizado.png!
-PS: Não é uma subdivisão rígida, mas didatica:
+
+![Mindmap-Tarefas-de-aprendizado.png](Mindmap-Tarefas-de-aprendizado.png)
+
 * **Aprendizado Indutivo**: 
+
 * **Aprendizado Supervisionado**: Preditivo, possue um __supervisor externo__. É conhecido a saída desejada para cada exemplo. Ex: situação de um paciente no hosmpital. 
   * **Classificação**: Tem um rótulo discreto. Exemplo: diagnóstico(saudável,doente), bom/mau pagador, etc.
   * **Regressão**: Não tem rótulos discretos, pois eles são contínuos. Exemplo: peso, altura, etc.
@@ -71,6 +77,15 @@ PS: Não é uma subdivisão rígida, mas didatica:
   * **Sumarização**: Encontrar descrição compacta dos dados.
   * **Associação**: Encontrar padrões frequentes de associações entre atributos.
   * **Agrupamento**: agrupamento por similaridade ou subconjuntos ou cluster.
+  * **Detecção de desvios**: Identificar elementos que destoam do todo
+  * **Padrões sequenciais**: Identificar comportamentos sequenciais
+
+![img-classificacao-x-regressao.png](img-classificacao-x-regressao.png)
+![img-associacao.png](img-associacao.png)
+![img-agrupamento.png](img-agrupamento.png)
+![img-deteccao-de-desvios.png](img-deteccao-de-desvios.png)
+
+PS: Não é uma subdivisão rígida, mas didatica:
 
 
 ### Processo de aprendizado supervisionado

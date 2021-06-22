@@ -1,8 +1,8 @@
-# A revolução da _AI_
+`README_Revolucao_da_AI.md`
 
 # 1. Introdução
 
-Neste capítulo separei todas as referências, na maioria das vezes ufânicas, porém outras assustadoras, sobre o impacto futuro da _AI_ no mundo.
+Neste capítulo **A Revolução da AI** separei todas as referências, na maioria das vezes ufânicas, porém outras assustadoras, sobre o impacto futuro da _AI_ no mundo e áreas de aplicações.
 
 
 # 2. Definição de _AI_
@@ -25,7 +25,7 @@ Há muitas definições para o termo _AI_ (Inteligência Artificial):
 * "O desenvolvimento da Inteligência Artificial pode levar ao fim da raça humana." (Stephen Hawking) 
 * "Robôs vão destruir nossos empregos e não estamos preparados para isto"
 * "Muitos empregos desaparecerão nos próximos 10 a 20 anos"
-* "a tecnologia vai desafiar as nossas idéias de privacidade. O grau de vigilância com certeza só vai aumentar."
+* "A tecnologia vai desafiar as nossas idéias de privacidade. O grau de vigilância com certeza só vai aumentar."
 * "filmes apocalípticos [Ex Machina](https://pt.wikipedia.org/wiki/Ex_Machina_(filme))
 
 # 5. Desafios e avanços
@@ -66,8 +66,29 @@ Há muitas definições para o termo _AI_ (Inteligência Artificial):
 * Logo teremos máquinas ensinando máquinas
 * Explosão de inteligênia
 
+# 6. Áreas de aplicação
+
+* Detecção ou reconhecimento de imagens: detectar pessoas em fotos, detectar movimentos em jogos, humanóides que andam e ficam em pé sozinhos, carros autônomos
+* Detecção de doenças em áreas médicas
+* Sistemas de recomendação: algorítmos da Netflix que recomendam filmes que voce pode gostar, Spotify para recomenar músicas e eHarmony para recomendar parceiros de relacionamentos, Amazon recomendação de produtos em e-commerce, personalização de anúncios do Facebooks Ads
+* Text-to-Speech e Speech-to-Text : leitura de um texto escrito ou reconhecimento e escrita de texto falado
+* Prevenção de malware
+* Sistemas Especialistas: Sistemas com base de conhecimento que foi aprendida a partir de um especialista humano e torna-se capaz de dar respostas sobre estes conhecimentos
+* Visão Computacional: reconhecimento de objetos, reconhecimento facial, uso na segurança e robótica
+* Machine Learning: Aprendizado de máquina
+* Processamento de linguagem natural: computador entender a frase tanto escrita quanto falada
+* Algorítmos genéticos
+* Sistemas multiagentes
+* Mineração de dados: que tem diferenças sutils em relação a Machine Learning
+* Resolução de problemas por meio de busca:
+* Lógica Fuzzy: 
+* Raciocínio baseadas em casos
+* Redes neurais
+* Robóticas
+
 
 # Referências
 
 * [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk)
 * [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48)
+* [Machine Learning & Data Science com Python](https://www.udemy.com/course/machine-learning-e-data-science-com-python-y)
