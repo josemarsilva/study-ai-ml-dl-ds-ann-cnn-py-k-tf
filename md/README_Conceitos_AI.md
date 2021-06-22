@@ -4,7 +4,26 @@
 
 Neste capítulo separei referências para conceitos, definições, terminologias e glossário
 
-Índice remissivo
+##### Tabela de conteúdo
+
+* [IC, AI, ML e DL](#21-ic-ai-ml-e-dl)
+    * [Inteligência Computacional](#intelig%C3%AAncia-computacional)
+    * [AI - Artificial Intelligence (Inteligência Artificial)](#ai---artificial-intelligence-intelig%C3%AAncia-artificial)
+    * [ML - Machine Learning](#ml---machine-learning)
+    * [DL - Deep Learning](#dl---deep-learning)
+    * [AI vs ML vs DL](#dl---deep-learning)
+  * [Dados, atributos, qualidade, quantidade e escala](#22-dados-atributos-qualidade-quantidade-e-escala)
+    * [DataSet ou conjunto de Dados](#dataset-ou-conjunto-de-dados)
+    * [Data Mining](#data-mining)
+    * [Dado imperfeito ou ruído](#dado-imperfeito-ou-ru%C3%ADdo)
+    * [Tipos de atributos Qualitativo](#tipos-de-atributos-qualitativo)
+    * [Tipos de atributos Quantitativo](#tipos-de-atributos-quantitativo)
+    * [Escalas de atributos](#escalas-de-atributos)
+  * [Aprendizado](#23-aprendizado)
+    * [Tarefas de aprendizado](#tipos-de-aprendizado)
+    * Tipos de aprendizado
+      * Aprendizado Indutivo, Aprendizado Supervisionado, Classificação, Regressão, Aprendizado Não-Supervisionado, Sumarização, Associação, Agrupamento, Detecção de desvios, Padrões sequenciais
+    * 
 
 
 ## 2. Conceitos
@@ -16,7 +35,7 @@ Inteligência Computacional é uma área bem vasta e bem estabelecida. É um ter
 
 
 #### _AI_ - Artificial Intelligence (Inteligência Artificial) 
-A teoria e desenvolvimento de sistemas computacionais capazes de executarem tarefas que normalmente requeriam a inteligêcia humana. Surgiu logo após a 2a guerra mundial. Está ligado ao desenvolvimento de sistemas que simulem a capacidade humana de resolver probleas.
+A teoria e desenvolvimento de sistemas computacionais capazes de executarem tarefas que normalmente requeriam a inteligêcia humana. Surgiu logo após a 2a guerra mundial. Está ligado ao desenvolvimento de sistemas que simulem a capacidade humana de resolver problemas.
 
 
 #### _ML_ - Machine Learning
@@ -59,25 +78,24 @@ Escala de atribuitos define operações que podem ser aplicadas aos atributos, q
 * **quantitativo intervalares**: Os valores tem significado quantitativo e variam dentro de um intervalo. As operações aplicáveis são: `+` adição, `-` subtração, além das operações `=`, `!=`, `<`, `<=`, `>` e `>=`. Exemplos: Temperatura.
 
 
-## 2.3. Aprendizado
-
-### Tarefas de aprendizado
-
-!tipos-de-aprendizado.png!
-
-* **Preditivas**: Encontrar uma função, modelo ou hipótese que pode ser utilizada para prever um rótulo ou valor. Ex: prever o valor de um imóvel ou um rótulo de doente/saudável para um paciente.
-* **Descritivas**: Explorar ou descrever um conjunto de dados, pois não possuem saída associada.
-
-
-### Tipos de aprendizado
+## 2.3. Tipos de Aprendizado
 
 ![Mindmap-Tarefas-de-aprendizado.png](Mindmap-Tarefas-de-aprendizado.png)
 
-* **Aprendizado Indutivo**: 
+### Preditivas vs Descritivas
+* **Preditivas**: Encontrar uma função, modelo ou hipótese que pode ser utilizada para prever um rótulo ou valor. Ex: prever o valor de um imóvel ou um rótulo de doente/saudável para um paciente.
+* **Descritivas**: Explorar ou descrever um conjunto de dados, pois não possuem saída associada.
+
+### Dedutivo vs Indutivo
+* **Aprendizado Dedutivo**:  as premissas fornecem um fundamento definitivo da conclusão
+* **Aprendizado Indutivo**:  as premissas proporcionam somente alguma fundamentação da conclusão, mas não uma fundamentação conclusiva, identificando dessa maneira os conceitos de dedução e raciocínio válido
+
+### Classificação, Regressão, Sumarização, Agrupamento, Detecção de Desvios e Padrões sequenciais
 
 * **Aprendizado Supervisionado**: Preditivo, possue um __supervisor externo__. É conhecido a saída desejada para cada exemplo. Ex: situação de um paciente no hosmpital. 
   * **Classificação**: Tem um rótulo discreto. Exemplo: diagnóstico(saudável,doente), bom/mau pagador, etc.
   * **Regressão**: Não tem rótulos discretos, pois eles são contínuos. Exemplo: peso, altura, etc.
+
 * **Aprendizado Não-Supervisionado**: Descritivo.  Os algorítimos não fazem uso de atributos de saída, eles exploram as regularidades nos dados
   * **Sumarização**: Encontrar descrição compacta dos dados.
   * **Associação**: Encontrar padrões frequentes de associações entre atributos.
@@ -92,6 +110,8 @@ Escala de atribuitos define operações que podem ser aplicadas aos atributos, q
 
 PS: Não é uma subdivisão rígida, mas didatica:
 
+
+## 2.4. Processo de aprendizado
 
 ### Processo de aprendizado supervisionado
 No aprendizado supervisionado, o programa é __treinado__ sobre um conjunto de dados pré-definidos. Baseado no treinamento com dados pré-definidos o programa pode tomar decisão para novos dados. Ex: análise de sensibilidade de tweets (positivo ou negativo). O objetivo é a partir do passado, prever o que se segue. 
@@ -111,8 +131,8 @@ Utiliza dados rotulados e não rotulados no treinamento. Normalmente uma pequena
 O algorítmo aprende por tentativa e erro. 
 
 
+## 2.5. Técnicas de aprendizado de máquina
 
-### Técnicas de aprendizado de máquina
 Existe várias técnicas de aprendizado de máquina:
 * Redes Neurais
 * Árvore de Decisão
@@ -121,6 +141,7 @@ Existe várias técnicas de aprendizado de máquina:
 * Redes Bayesianas
 * Máquina de vetor de suporte (SVMs)
 * Regressão Linear
+
 Ps: Não existe a **melhor** técnica e sim a mais adequada levando em consideração os dados e tempo de espera
 
 
@@ -138,7 +159,7 @@ Regressão Linear Simples é quando temos uma única variável explanatória (x)
 ### Regressão Linear Múltipla
 Regressão múltipla é uma coleção de técnicas estatísticas para construir modelos que descrevem de maneira razoável relações entre várias variáveis explicativas de um determinado processo. A diferença entre a regressão linear simples e a múltipla é que na múltipla são tratadas duas ou mais variáveis explicativas.
 
-## 2.4. Inteligência artificial ou humana?
+## 2.6. Inteligência artificial ou humana?
 
 ### Teste de Turing
 O [Teste de Turing](https://pt.wikipedia.org/wiki/Teste_de_Turing) testa a capacidade de uma máquina exibir comportamento inteligente equivalente a um ser humano, ou indistinguível deste.
