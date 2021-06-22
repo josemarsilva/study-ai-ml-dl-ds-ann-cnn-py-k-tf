@@ -1,4 +1,4 @@
-# README study-ai-ml-dl-ds-ann-cnn-py-k-tf
+`README study-ai-ml-dl-ds-ann-cnn-py-k-tf.md`
 
 ## 1. Introdução ##
 
@@ -8,8 +8,8 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 ### 2. Roteiros de estudo ###
 
 * [A revolução da _AI_ - Inteligência Artificial](./md/README_Revolucao_da_AI.md)
-* [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
 * [Conceitos, definições , termos e glossário _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
+* [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
 * [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md)
 * Programação Python
   * [Tutorial Python com Jupyter Notebook](./md/README_Python.md)
@@ -20,6 +20,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
   * [Visualizando os dados com **Matplotlib**](./md/README_PythonMatplotlib.md)
   * [Pacote/biblioteca **pygame** ](./md/README_PythonPygame.md) e [Rede Neural aprendizado supervisionado para jogar Ping Pong](./md/README_PythonPygameRedeNeuralJogoPegaBolinhaLancada.md)
   * [Regressão Linear com NumPy, Matplotlib, Tensorflow](./md/README_PythonRegressaoLinearNumPyMatplotlibTensorFlow.md)
+  * [Machine Learning e Data Science com Python](./md/README_MachineLearningDataSciencePython.md)
 * Introdução às _ANN_ (Artificial Neural Networks)
 * Tensor Flow
 
