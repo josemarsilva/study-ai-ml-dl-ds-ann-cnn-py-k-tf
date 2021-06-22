@@ -4,30 +4,33 @@
 
 Neste capítulo separei referências para conceitos, definições, terminologias e glossário
 
+Índice remissivo
+
 
 ## 2. Conceitos
 
-### Inteligência Computacional
+## 2.1. IC, AI, ML e DL
+
+#### Inteligência Computacional
 Inteligência Computacional é uma área bem vasta e bem estabelecida. É um termo preferido pelos profissionais da ciência de computação para  substituir "Inteligência Artificial" porque remete a computação. IEEE considera as técnicas de: Redes Neurais, Computação Evolucionária e Lógica Nebulosa (Fuzzy). O uso prático: Netflix, Google, Amazon, WhatsApp corretor ortográfico (processamento de linguagem natural). 
 
 
-### _AI_ Artificial Intelligence (Inteligência Artificial) 
+#### _AI_ - Artificial Intelligence (Inteligência Artificial) 
 A teoria e desenvolvimento de sistemas computacionais capazes de executarem tarefas que normalmente requeriam a inteligêcia humana. Surgiu logo após a 2a guerra mundial. Está ligado ao desenvolvimento de sistemas que simulem a capacidade humana de resolver probleas.
 
 
-### _ML _ Machine Learning
+#### _ML_ - Machine Learning
 O campo da ciência que usa técnicas estatísticas para dar aos sistemas computacionais a habilidade de "ler", isto é que progressivamente melhore o desempenho da execução de uma tarefa específica com dados, sem terem sido explicitamente programados para tal.
 
 
-### _DL_ Deep Learning
+#### _DL_ - Deep Learning
 É parte do _ML_ Machine Learning que utiliza métodos baseado no aprendizado de dados, diferentemente de tarefas baseadas em algorítimos.
 
-### _AI_ vs _ML_ vs _DL_
+#### _AI_ vs _ML_ vs _DL_
 
 ![Artificial Intelligence vs Machine Learning vs Deep Learning](ai_vs_ml_vs_dl.png)
 
-### Teste de Turing
-O [Teste de Turing](https://pt.wikipedia.org/wiki/Teste_de_Turing) testa a capacidade de uma máquina exibir comportamento inteligente equivalente a um ser humano, ou indistinguível deste.
+## 2.2. Dados, atributos, qualidade, quantidade e escala
 
 ### DataSet ou conjunto de Dados
 Em _AI_, um programa aprende a partir de uma experiências, que pode ser provida por um conjunto de dados. Exemplo: dados de pacientes de um hospital, identificador, nome, idade, peso, temperatura, presença de manchas, etc.  O dado também é chamado de objeto, exemplo, amostra, registro ou padrão.
@@ -55,6 +58,8 @@ Escala de atribuitos define operações que podem ser aplicadas aos atributos, q
 * **quantitativo racionais**: Os valores tem significado absoluto. As operações aplicáveis são: `+` adição, `-` subtração, `*` multiplicação e `/` divisão, além das operações `=`, `!=`, `<`, `<=`, `>` e `>=`. Exemplos: peso, quantidade de algum atributo.
 * **quantitativo intervalares**: Os valores tem significado quantitativo e variam dentro de um intervalo. As operações aplicáveis são: `+` adição, `-` subtração, além das operações `=`, `!=`, `<`, `<=`, `>` e `>=`. Exemplos: Temperatura.
 
+
+## 2.3. Aprendizado
 
 ### Tarefas de aprendizado
 
@@ -133,6 +138,10 @@ Regressão Linear Simples é quando temos uma única variável explanatória (x)
 ### Regressão Linear Múltipla
 Regressão múltipla é uma coleção de técnicas estatísticas para construir modelos que descrevem de maneira razoável relações entre várias variáveis explicativas de um determinado processo. A diferença entre a regressão linear simples e a múltipla é que na múltipla são tratadas duas ou mais variáveis explicativas.
 
+## 2.4. Inteligência artificial ou humana?
+
+### Teste de Turing
+O [Teste de Turing](https://pt.wikipedia.org/wiki/Teste_de_Turing) testa a capacidade de uma máquina exibir comportamento inteligente equivalente a um ser humano, ou indistinguível deste.
 
 
 # Referências
