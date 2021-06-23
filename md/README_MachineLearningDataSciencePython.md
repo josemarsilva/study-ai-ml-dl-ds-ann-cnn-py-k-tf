@@ -1,11 +1,9 @@
 `README_MachineLearningDataSciencePython.md`
 
-## 1. Introdução
-
-Este repositório contém os artefatos do estudo sobre Machine Learning e Data Science utilizando a linguagem Python.
+#### Índice Remissivo
 
 * Classificação
-  * Pré-processament
+  * Pré-processamento
   * Naive Bayes
   * Árvore de Decisão
   * Random Forest
@@ -43,9 +41,37 @@ Este repositório contém os artefatos do estudo sobre Machine Learning e Data S
   * Detecção de outliers
   * Séries temporais
 
-## 2. Estudo
+## 1. Introdução
 
+Este repositório contém os artefatos do estudo sobre Machine Learning e Data Science utilizando a linguagem Python.
 
+## 2. Roteiro de Estudo
+
+### 2.1. Classificação
+
+#### 2.1.1. Pré-processamento
+
+A etapa de pré-processamento consiste em:
+* Carregar os dados
+* Tratar valores inconsistentes
+* Tratar valores faltantes
+* Escalonamento de atributos
+* Transformação de variáveis categóricas
+* Introdução a avaliação de algorítimo
+* Separação em base de dados de Treinamento e Testes
+
+É comum o uso da ferramenta **scikit-learn** na etapa de pré-processamento.
+
+#### 2.1.2. Tipos de variáveis
+
+O tipo de variável é importante para o correto modelamento e uso dos parâmetros das bibliotecas que serão chamadas.
+
+* *Numéricas*
+  * Contínuas (reais): representa valores quantitativos. Ex: temperatura, pressão, altura
+  * Discretas (inteiros): conjunto de valores finitos ou contagem de alguma coisa
+* Categóricas (string):
+  * Nominal: dados não mensuráveis, sem ordenação, cor dos olhos, gênero, nome
+  * Ordinal: categorizado sobre uma ordenação. Ex: Pequeno, Médio e Grande
 
 
 ## I - Referências

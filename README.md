@@ -5,13 +5,14 @@
 Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artificial Intelligence), _ML_ (Machine Learning), _DL_ (Deep Learning), _DS_ (Data Science), _ANN_ (Artificial Neural Networks), _CNN_ (Convolucinal Neural Network), _Py_ (Python lingaugem de programação), _K_ (Keras) e _TF_ (TensorFlow).
 
 
-### 2. Roteiros de estudo ###
+### 2. Roteiro de Estudo
 
-* [A revolução da _AI_ - Inteligência Artificial](./md/README_Revolucao_da_AI.md)
-* [Conceitos, definições , termos e glossário _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
-* [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
-* [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md)
-* Programação Python
+* Teoria, história, ciclo do _hype_, conceitos, termos etc
+  * [A revolução da _AI_ - Inteligência Artificial](./md/README_Revolucao_da_AI.md)
+  * [Conceitos, definições , termos e glossário _AI_ - Inteligência Artificial](./md/README_Conceitos_AI.md)
+  * [História da _AI_ - Inteligência Artificial](./md/README_Historia_da_AI.md)
+* Programação
+  * [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md)
   * [Tutorial Python com Jupyter Notebook](./md/README_Python.md)
   * [Guia de estudo básico da linguagem Python 3](https://github.com/josemarsilva/study-python#341-b%C3%A1sico-da-linguagem-python)
   * [Manipulando **DataSet** em **Python**](./md/README_PythonDataSetManipulation.md)
@@ -20,9 +21,8 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
   * [Visualizando os dados com **Matplotlib**](./md/README_PythonMatplotlib.md)
   * [Pacote/biblioteca **pygame** ](./md/README_PythonPygame.md) e [Rede Neural aprendizado supervisionado para jogar Ping Pong](./md/README_PythonPygameRedeNeuralJogoPegaBolinhaLancada.md)
   * [Regressão Linear com NumPy, Matplotlib, Tensorflow](./md/README_PythonRegressaoLinearNumPyMatplotlibTensorFlow.md)
+* Machine Learning e Data Science
   * [Machine Learning e Data Science com Python](./md/README_MachineLearningDataSciencePython.md)
-* Introdução às _ANN_ (Artificial Neural Networks)
-* Tensor Flow
 
 
 

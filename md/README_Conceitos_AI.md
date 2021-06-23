@@ -1,11 +1,8 @@
 `README_Conceitos_AI.md`
 
-## 1. Introdução ##
+##### Índice remissivo
 
-Neste capítulo separei referências para conceitos, definições, terminologias e glossário
-
-##### Tabela de conteúdo
-
+* [Introdução](#1-introdu%C3%A7%C3%A3o)
 * [IC, AI, ML e DL](#21-ic-ai-ml-e-dl)
     * [Inteligência Computacional](#intelig%C3%AAncia-computacional)
     * [AI - Artificial Intelligence (Inteligência Artificial)](#ai---artificial-intelligence-intelig%C3%AAncia-artificial)
@@ -35,6 +32,11 @@ Neste capítulo separei referências para conceitos, definições, terminologias
     * [Inteligência artificial ou humana?](#26-intelig%C3%AAncia-artificial-ou-humana)
       * [Teste de Turing](#teste-de-turing)
 * [Referências](#referências)
+
+## 1. Introdução ##
+
+Neste capítulo separei referências para conceitos, definições, terminologias e glossário
+
 
 ## 2. Conceitos
 
