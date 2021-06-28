@@ -30,22 +30,23 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
     * [Regressão Linear com NumPy, Matplotlib, Tensorflow](./md/README_PythonRegressaoLinearNumPyMatplotlibTensorFlow.md)
 * Machine Learning e Data Science
   * [Machine Learning e Data Science com Python](./md/README_MachineLearningDataSciencePython.md)
-* [Referências](#i---referencias)
 
 
-##### Revolução, Negócios, aspectos sociológicos, etc
+### I. Referências
+
+##### I.1. Revolução, Negócios, aspectos sociológicos, etc
 
 * [Discovery Brasil | Inteligência Artificial - IBM](https://www.youtube.com/watch?v=W95YlM5-iPk)
 * [Vídeo the BEST BOOK on Machine Learning](https://www.youtube.com/watch?v=1RiFIYwuwHM&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
 
 
-##### História
+##### I.2. História
 
 * Vídeo [Inteligência Artificial: CNN e CUDA, uma breve introdução](https://www.youtube.com/watch?v=j8E_i6-qtbA&index=14&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq)
   * Comentário: PT-BR Bom histórico sobre Rede Neural Convolucinal, Lenet: reconhecimento de caracter, TensorFlow, Imagenet
 * Vídeo [MIT Deep Learning Basics: Introduction and Overview - Excelente visão geral e histórica sobre DL](https://www.youtube.com/watch?v=O5xeyoRL95U&t=436s)
 
-##### Conceitos
+##### I.3. Conceitos
 
 * Vídeo [Inteligência Artificial, Machine Learning e Deep Learning (Exemplos e Diferenças)](https://www.youtube.com/watch?v=5UYpSE3dQSQ&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Introdutório dos conceitos, mostra a diferença entre AI vs ML vs DL, para não técnicos de forma bastante simples e efetiva
 * Vídeo [PALESTRA Introdução ao deep learning com TensorFlow](https://www.youtube.com/watch?v=OIyR-_EpG48&list=PLORrDfZD1hkE-STpneL0hV3_m2tjv0qAq) - Bom histórico, excelente didática
@@ -65,12 +66,12 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 * Vídeo Os profissionais de ciência de dados [parte 1](https://www.youtube.com/watch?v=A0YytJTmiE0) e [parte 2](https://www.youtube.com/watch?v=WnAnkFXFV3g)
   
 
-##### TensorFlow
+##### I.4. TensorFlow
 
 * Vídeo [Introdução a Deep Learning e Tensorflow: Teoria e Pratica](https://www.youtube.com/watch?v=mAIRkkItPSc&index=17)
   * Comentário: Introdução bem resumida, ML, RN, DL, TF, criar e treinar RN. Aqui estáo os [Slides](https://github.com/GuiUzeda/Webinar-Tensorflow/blob/master/Webinar%20Tensorflow.pdf)
   
-##### Jupyter Notebook
+##### I.5. Jupyter Notebook
 
 * [Getting Started With Jupyter Notebook for Python](https://www.youtube.com/watch?v=CwFq3YDU6_Y)
 * [Tutorial do Notebook Jupyter: Introdução, Configuração e Passo a Passo](https://www.youtube.com/watch?v=HW29067qVWk&t=72s)
