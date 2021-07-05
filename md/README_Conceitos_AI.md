@@ -183,3 +183,9 @@ O [Teste de Turing](https://pt.wikipedia.org/wiki/Teste_de_Turing) testa a capac
 * Vídeo [Robo Leo aprendendo a andar](https://www.youtube.com/watch?v=SBf5-eF-EIw)
 * Vídeo [Teste de Turing](https://www.youtube.com/watch?v=WWmblRWRdLc)
 * [Fundamentos Data Science](https://jvilar.wordpress.com/2017/01/29/fundamentos-de-data-science-machine-learning-parte-1/)
+* Play-List Inteligência Artificial - Felipe Deschamps
+  * [Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?](https://www.youtube.com/watch?v=ccZ2pyr3YDw&list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-&index=2)
+  * [MELHOR FORMA DE APRENDER PYTHON (Google Colab Notebook)](https://www.youtube.com/watch?v=Gojqw9BQ5qY&list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-&index=3)
+  * [Data Science: Introdução a Ciência de Dados (Primeira aula prática programando em Python)](https://www.youtube.com/watch?v=F608hzn_ygo&list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-&index=4)
+  * [Machine Learning: Tutorial prático usando apenas o navegador (é sensacional!!!)](https://www.youtube.com/watch?v=JyGGMyR3x5I&list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-&index=5)
+  * [Data Visualization: crie os melhores gráficos para os seus dados](https://www.youtube.com/watch?v=qLiEDvs57nk&list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-&index=6)
