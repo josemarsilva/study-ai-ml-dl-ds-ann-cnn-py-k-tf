@@ -66,6 +66,8 @@ A etapa de pré-processamento consiste em:
 
 O tipo de variável é importante para o correto modelamento e uso dos parâmetros das bibliotecas que serão chamadas.
 
+![Mindmap-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png](Mindmap-Variaveis-Numericas-Categoricas-Continuas-Discretas-Nominal-Ordinal.png)
+
 * *Numéricas*
   * Contínuas (reais): representa valores quantitativos. Ex: temperatura, pressão, altura
   * Discretas (inteiros): conjunto de valores finitos ou contagem de alguma coisa

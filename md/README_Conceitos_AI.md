@@ -27,7 +27,7 @@
       * [Não-supervisionado](#n%C3%A3o-supervisionado)
       * [Semi-supervisionado](#semi-supervisionado)
       * [Por reforço](#por-reforço)
-    * [Técnicas de aprendizado de máquina](#25-t%C3%A9cnicas-de-aprendizado-de-m%C3%A1quina)
+    * [Algoritmos Fundamentais em Machine Learning](#25-algoritmos%20fundamentais%20em%20machine%20learning)
       * Redes Neurais, Árvore de Decisão, KNN, K-Means, Redes Bayesianas, Máquina de vetor de suporte (SVMs), Clusterização, Regressão Linear (Simples, Múltipla)
     * [Inteligência artificial ou humana?](#26-intelig%C3%AAncia-artificial-ou-humana)
       * [Teste de Turing](#teste-de-turing)
@@ -105,8 +105,8 @@ Escala de atribuitos define operações que podem ser aplicadas aos atributos, q
 ### Classificação, Regressão, Sumarização, Agrupamento, Detecção de Desvios e Padrões sequenciais
 
 * **Aprendizado Supervisionado**: Preditivo, possue um __supervisor externo__. É conhecido a saída desejada para cada exemplo. Ex: situação de um paciente no hosmpital. 
-  * **Classificação**: Tem um rótulo discreto. Exemplo: diagnóstico(saudável,doente), bom/mau pagador, etc.
-  * **Regressão**: Não tem rótulos discretos, pois eles são contínuos. Exemplo: peso, altura, etc.
+  * **Classificação**: Nas situações desejamos prever uma classe ou categoria — se uma pessoa tem ou não uma doença, ou seja, uma resposta final binária {sim, não} ou se uma pessoa deve receber ou não crédito do banco com base no seu histórico como cliente, a saída mais uma vez é um simples {sim, não}. Logo não há um rótulo discreto. Exemplo: diagnóstico(saudável,doente), bom/mau pagador, etc.
+  * **Regressão**: Usamos algoritmos de regressão quando nosso objetivo é prever um valor numérico — prever valor da casa em um determinado bairro, prever valor de vendas para o próximo mês. Nestas situações não tem rótulos discretos, pois eles são contínuos. Exemplo: peso, altura, etc.
 
 * **Aprendizado Não-Supervisionado**: Descritivo.  Os algorítimos não fazem uso de atributos de saída, eles exploram as regularidades nos dados
   * **Sumarização**: Encontrar descrição compacta dos dados.
@@ -143,33 +143,31 @@ Utiliza dados rotulados e não rotulados no treinamento. Normalmente uma pequena
 O algorítmo aprende por tentativa e erro. 
 
 
-## 2.5. Técnicas de aprendizado de máquina
+## 2.5. Algoritmos Fundamentais em Machine Learning
 
-Existe várias técnicas de aprendizado de máquina:
-* Redes Neurais
-* Árvore de Decisão
-* KNN
+Os principais algorítmos   são:
+
+* Regressão Linear
+* Regressão Logística
+* Árvores de Decisão
+* Random Forest
+* Máquinas de Vetor de Suporte
+* Naive Bayes
+* K-Nearest Neighbors (KNN)
 * K-Means
-* Redes Bayesianas
-* Máquina de vetor de suporte (SVMs)
-* Clusterização
-* Regressão Linear (Simples, Múltipla)
+* Principal Component Analysis
+* Gradient Boosting e AdaBoost
 
-Ps: Não existe a **melhor** técnica e sim a mais adequada levando em consideração os dados e tempo de espera.
+Para saber mais detalhes dos algorítimos acesse:
 
-### Clusterização
-Processo de agrupar objetos em classes de objetos similares. Cluster é uma coleção de objeto que é similar a outros de acordo com um critério de similiradade.
+* [10 algoritmos fundamentais em Machine Learning](https://medium.com/data-hackers/10-algoritmos-fundamentais-em-machine-learning-c673b1034a0)
+* [Um tour pelos 10 principais algoritmos de Machine Learning](https://ilumeo.com.br/todos-posts/2020/06/22/um-tour-pelos-10-principais-algoritmos-de-machine-learning)
+* [Como funciona Machine Learning](https://opencadd.com.br/o-que-e-machine-learning/)
+* [Uma visão geral sobre Machine Learning - Classificação](https://operdata.com.br/blog/uma-visao-geral-sobre-machine-learning/)
 
+PS: 
+* Não existe a **melhor** técnica e sim a mais adequada levando em consideração os dados e tempo de espera.
 
-### Regressão Linear
-Em estatística ou econometria, regressão linear é uma equação para se estimar a condicional (valor esperado) de uma variável y, dados os valores de algumas outras variáveis x.
-
-### Regressão Linear Simples
-Regressão Linear Simples é quando temos uma única variável explanatória (x).
-
-
-### Regressão Linear Múltipla
-Regressão múltipla é uma coleção de técnicas estatísticas para construir modelos que descrevem de maneira razoável relações entre várias variáveis explicativas de um determinado processo. A diferença entre a regressão linear simples e a múltipla é que na múltipla são tratadas duas ou mais variáveis explicativas.
 
 ## 2.6. Inteligência artificial ou humana?
 
