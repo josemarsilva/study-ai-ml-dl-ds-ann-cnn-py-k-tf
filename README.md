@@ -23,12 +23,16 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
     * [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
   * Matplotlib
     * [Visualizando os dados com **Matplotlib**](./md/README_PythonMatplotlib.md)
+  * Scikitlearn
+    * [Scikitlearn Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
   * Pygame
     * [Pacote/biblioteca **pygame** ](./md/README_PythonPygame.md) e [Rede Neural aprendizado supervisionado para jogar Ping Pong](./md/README_PythonPygameRedeNeuralJogoPegaBolinhaLancada.md)
   * Tensorflow
     * [Regressão Linear com NumPy, Matplotlib, Tensorflow](./md/README_PythonRegressaoLinearNumPyMatplotlibTensorFlow.md)
+
 * Machine Learning e Data Science
   * [Machine Learning e Data Science com Python](./md/README_MachineLearningDataSciencePython.md)
+  * [Splitting Dataset into train, validation and test](./md/README_MachineLearningDataSciencePython.md)
 
 
 ### I. Referências

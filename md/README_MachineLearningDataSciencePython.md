@@ -76,6 +76,13 @@ O tipo de variável é importante para o correto modelamento e uso dos parâmetr
   * Ordinal: categorizado sobre uma ordenação. Ex: Pequeno, Médio e Grande
 
 
+#### 2.1.3. Split Dataset into learn, validation and test set
+
+* [Splitting a Dataset into Train and Test Sets](https://www.baeldung.com/cs/train-test-datasets-ratio)
+* [Splitting a dataset](https://towardsdatascience.com/splitting-a-dataset-e328dab2760a)
+* [A Method for Optimal Division of Data Sets for Use in Neural Networks](https://link.springer.com/chapter/10.1007/11554028_1)
+
+
 ## I - Referências
 
 * [Machine Learning & Data Science com Python](https://www.udemy.com/course/machine-learning-e-data-science-com-python-y)
