@@ -17,7 +17,7 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
     * [Básico de **Jupyter Notebook**](./md/README_JupyterNotebook.md)
     * [Tutorial Python com Jupyter Notebook](./md/README_Python.md)
   * Python
-    * [Guia de estudo Básico, Intermediário e Avançado da linguagem Python 3](https://github.com/josemarsilva/study-python#341-b%C3%A1sico-da-linguagem-python)
+    * [Guia de estudo Básico, Intermediário e Avançado da linguagem Python 3](https://github.com/josemarsilva/study-python)
   * NumPy
     * [Pacote/biblioteca **NumPy** para computação científica em **Python**](./md/README_PythonNumpy.md)
     * [**Matrizes** em **Python** com **Listas** e com **NumPy**](./md/README_PythonMatrizesListas_vs_Numpy.md)
@@ -32,7 +32,10 @@ Este repositório contém os artefatos do roteiro de estudo sobre  _AI_ (Artific
 
 * Machine Learning e Data Science
   * [Machine Learning e Data Science com Python](./md/README_MachineLearningDataSciencePython.md)
-  * [Splitting Dataset into train, validation and test](./md/README_MachineLearningDataSciencePython.md)
+    * Pré-Processamento: Etapas do pré-processamento ( [Splitting Dataset into train, validation and test](./md/README_MachineLearningDataSciencePython.md) ) e Tipos de variáveis
+    * Algorítmos de Classificação: Naive Bayes, correlação Laplaciana, probabilidades apriori e posteriori, 
+  * 
+  * Algorítimo Naive Bayes
 
 
 ### I. Referências

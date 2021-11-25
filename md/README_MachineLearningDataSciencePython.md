@@ -2,8 +2,10 @@
 
 #### Índice Remissivo
 
+* Pré-processamento
+  * Etapas do pré-processamento
+  * Tipos de variáveis
 * Classificação
-  * Pré-processamento
   * Naive Bayes
   * Árvore de Decisão
   * Random Forest
@@ -47,9 +49,9 @@ Este repositório contém os artefatos do estudo sobre Machine Learning e Data S
 
 ## 2. Roteiro de Estudo
 
-### 2.1. Classificação
+### 2.1. Pré-processamento
 
-#### 2.1.1. Pré-processamento
+#### 2.1.1. Etapas Pré-processamento
 
 A etapa de pré-processamento consiste em:
 * Carregar os dados
@@ -81,6 +83,30 @@ O tipo de variável é importante para o correto modelamento e uso dos parâmetr
 * [Splitting a Dataset into Train and Test Sets](https://www.baeldung.com/cs/train-test-datasets-ratio)
 * [Splitting a dataset](https://towardsdatascience.com/splitting-a-dataset-e328dab2760a)
 * [A Method for Optimal Division of Data Sets for Use in Neural Networks](https://link.springer.com/chapter/10.1007/11554028_1)
+
+
+### 2.2. Classificação
+
+### 2.2.1. Naive Bayes
+
+* Abordagem probabilistica
+* Exemplo de uso:
+	* Filtros de SPAM
+	* Mineração de emoção
+	* Separação de documentos
+* Estudo de caso: avaliação de risco de crédito imobiliario de uma base de dados
+	* Atributos
+		* Histórico de crédito: [ `Boa`, `Ruim`, `Desconhecida` ]
+		* Dívidas: [ `Alta`, `Baixa` ]
+		* Garantias: [ `Adequada`, `Nenhuma` ]
+		* Renda anual: [ `< 15000`, `>= 15000` e `<= 35000`, `> 35000` ]
+	* Algorítimo
+		- Montar uma tabela de probabilidade com cada uma das combinações
+    - No caso de iterações: probabilidade anterior (apriori) e posterior a iteração (posteriori)
+  * Resultados esperados
+		- atributo classificação de risco: [ `Alto`, `Moderado`, `Baixo`] 
+  * Vantagens: rápido, simplicidade de interpretação, trabalha com altas dimensões (muitos atributos), boas previsões em base de dados pequenas
+  * Desvantagens: combinação de características (atributos independentes) cada par de atributos são independentes e não considera correlação
 
 
 ## I - Referências
